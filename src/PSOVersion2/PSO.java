@@ -66,7 +66,6 @@ class PSO
 				{
 					Agent.gbest[i] = agent[m_iTempPos].dpbest[i];
 				}
-
 			}
 			//更新所有粒子的速度和位置，计算一个粒子就更新一次
 			for(int i = 0; i < Agent.iPOSNum;i++)

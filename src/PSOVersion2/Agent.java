@@ -11,10 +11,13 @@ import java.util.Set;
 
 class Agent
 {
-	
+
 	public static int iPOSNum = 20; //粒子个数
 	public static int iAgentDim = 7; //粒子维度
-	public static int ikmeans=2; //聚类中心数
+	public static int ikmeans=3; //聚类中心数
+	public static double[] gbest = new double[iAgentDim*ikmeans]; 
+	//result中每一行，又是一个list数组
+	public static List<ArrayList<Double>> result = new ArrayList<ArrayList<Double>>();
 	private final double w = 0.9;
 	private final double c1= 1.49445;
 	private final double c2 = 1.49445;
@@ -24,9 +27,6 @@ class Agent
 	private double m_dFitness=0; 
 	public double m_dBestfitness; //m_dBestfitness 粒子本身的最优解，适应度
 	private Random random = new Random();
-	public static double[] gbest = new double[iAgentDim*ikmeans]; 
-	//result中每一行，又是一个list数组
-	public static List<ArrayList<Double>> result = new ArrayList<ArrayList<Double>>();
 	//下面是一些约束
 	private float VMAX = 0.2f;
 	private float VMIN = -0.2f;
@@ -92,46 +92,35 @@ class Agent
 
 	public void UpdateFitness()
 	{
-		//此处，如果不清楚有几个聚类中心的话，就比较难做，所以还是回归到俩个聚类中心
-		//俩个数组分别存放俩个聚类中心
-		double [] k1=new double[iAgentDim];
-		double [] k2=new double[iAgentDim];
-		//k1,k2分别所属的簇的适应度值
-		double m_dFitnessk1=0;
-		double m_dFitnessk2=0;
-		for (int i = 0; i < k1.length; i++)
-		{
-			k1[i]=dpos[i];
-		}
-		for (int i = 0; i < k2.length; i++)
-		{
-			k2[i]=dpos[i+k1.length];
-		}
-		//计算适应度函数的值，这里其实就是距离
-		for (int i = 0; i <result.size(); i++) 
-		{
-			double disk1=0; //一个点分别到k1，k2的距离，没有开根号
-			double disk2=0;
-			
-			//计算当前点result.get(i)到每个中心的距离
-			for (int j = 0; j < result.get(i).size(); j++)
+		ArrayList<double[]> centers = new ArrayList<>();
+		for(int k=0;k<ikmeans;k++) {
+			double [] center=new double[iAgentDim];
+			for (int i = 0; i < center.length; i++)
 			{
-
-				disk1+=Math.pow(result.get(i).get(j)-k1[j], 2) ;
-				disk2+=Math.pow(result.get(i).get(j)-k2[j], 2) ;
-				//这个点距离k1比较近，是属于k1
-				if(disk1<=disk2)
-				{
-					m_dFitnessk1+=disk1;
-				}
-				// 这个点距离k2比较近，是属于k2
-				else
-				{
-					m_dFitnessk2+=disk2;
+				center[i]=dpos[i+k*center.length];
+			}
+			centers.add(center);
+		}
+		//计算适应度函数的值，这里其实就是距离，计算每个数据点
+		for (int i = 0; i <result.size(); i++){
+			double  m_dFitnessk = Double.MAX_VALUE;
+			double []distance = new double[centers.size()];		
+			//计算该数据点到多有聚类中心的距离
+			for(int k=0;k<centers.size();k++) {
+				//计算当前点result.get(i)到每个中心的距离.这层遍历是粒子的维度
+				for (int j = 0; j < result.get(i).size(); j++){
+					distance[k] += Math.pow(result.get(i).get(j)-centers.get(k)[j], 2) ;				
 				}
 			}
+			//选出最近的距离
+			for(int k=0;k<distance.length;k++) {
+				if(m_dFitnessk>distance[k]) {
+					m_dFitnessk=distance[k];
+				}
+			}
+			//该粒子的适应度
+			m_dFitness += m_dFitnessk;
 		}
-		m_dFitness = m_dFitnessk1+m_dFitnessk2; //该粒子群的总适应度
 		//如果当前计算的适应度更优，则替换，而且把最优位置也要记录
 		if(m_dFitness < m_dBestfitness)
 		{
@@ -141,7 +130,6 @@ class Agent
 				//更新个体极值
 				dpbest[i] = dpos[i];
 			}
-
 		}
 //		System.out.println(m_dBestfitness);
 	}
@@ -153,28 +141,28 @@ class Agent
 		for(int i = 0;i < iAgentDim*ikmeans;i++)
 		{
 			dv[i] = w * dv[i] + c1 * random.nextDouble() * (dpbest[i] - dpos[i]) + c2 * random.nextDouble() * ( gbest[i] - dpos[i]);
-//			if(dv[i]>VMAX) {
-//				dv[i]=VMAX;
-//			}
-//			if(dv[i]<VMIN) {
-//				dv[i]=VMIN;
-//			}
+			//			if(dv[i]>VMAX) {
+			//				dv[i]=VMAX;
+			//			}
+			//			if(dv[i]<VMIN) {
+			//				dv[i]=VMIN;
+			//			}
 			dpos[i] = dpos[i] + dv[i];
-//			if(dpos[i]>popmax) {
-//				dpos[i]=popmax;
-//			}
-//			if(dpos[i]<popmin) {
-//				dpos[i]=popmin;
-//			}
+			//			if(dpos[i]>popmax) {
+			//				dpos[i]=popmax;
+			//			}
+			//			if(dpos[i]<popmin) {
+			//				dpos[i]=popmin;
+			//			}
 		}
-//		for(int i=0;i<dv.length;i++) {
-//			System.out.print(dv[i]+" ");			
-//		}
-//		System.out.println();
-//		for(int i=0;i<dpos.length;i++) {
-//			System.out.print(dpos[i]+" ");			
-//		}
-//		System.out.println();
+		//		for(int i=0;i<dv.length;i++) {
+		//			System.out.print(dv[i]+" ");			
+		//		}
+		//		System.out.println();
+		//		for(int i=0;i<dpos.length;i++) {
+		//			System.out.print(dpos[i]+" ");			
+		//		}
+		//		System.out.println();
 	}
 
 }
