@@ -11,8 +11,8 @@ import java.util.Set;
 
 class Agent
 {
-
-	public static int iPOSNum = 20; //粒子个数
+    
+	public static int iPOSNum = 20;  //粒子个数
 	public static int iAgentDim = 4; //粒子维度
 	public static int ikmeans=3; //聚类中心数
 	public static double[] gbest = new double[iAgentDim*ikmeans]; 
