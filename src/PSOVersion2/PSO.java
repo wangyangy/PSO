@@ -4,7 +4,7 @@ import java.io.IOException;
 class PSO
 {
 	private Agent[] agent;
-	private final int iStep = 10000; //迭代次数
+	private final int iStep = 1000; //迭代次数
 	private double m_dBestFitness; //PSO所有粒子的全局极值
 	private int m_iTempPos; //记录粒子全局最优值对应的下标
 
@@ -22,7 +22,7 @@ class PSO
 	public void createpso()
 	{
 		//设置粒子群的全局最优极值
-		m_dBestFitness = 10000;
+		m_dBestFitness = Integer.MAX_VALUE;
 		agent = new Agent[Agent.iPOSNum];
 		//创建iPosnum个粒子数组
 		for(int i =0;i < Agent.iPOSNum;i++)
@@ -64,7 +64,14 @@ class PSO
 				//群体极值更新
 				for(int i =0;i < Agent.iAgentDim*Agent.ikmeans;i++)
 				{
-					Agent.gbest[i] = agent[m_iTempPos].dpbest[i];
+					try {
+						Agent.gbest[i] = agent[m_iTempPos].dpbest[i];
+					} catch (Exception e) {
+//						System.out.println("Agent.gbest[i]:"+Agent.gbest.length);
+//						System.out.println(m_iTempPos);
+//						System.out.println(i);
+						e.printStackTrace();
+					}
 				}
 			}
 			//更新所有粒子的速度和位置，计算一个粒子就更新一次
@@ -75,13 +82,23 @@ class PSO
 				agent[i].UpdateFitness();
 			}
 			k++;
+//			System.out.println("迭代次数:"+k+"全局最优使用度值为:"+m_dBestFitness);
 		}
 		//循环结束
-		System.out.println("After " + k + " steps " + "the best value is " + m_dBestFitness );
+//		System.out.println("After " + k + " steps " + "the best value is " + m_dBestFitness );
 //		System.out.println("The best position is :");
 		for(int i = 0;i < Agent.iAgentDim*Agent.ikmeans;i++)
 		{
-			System.out.print(Agent.gbest[i] + " ");
+			if(i==0) {
+				System.out.print("[[");
+			}
+			if(i!=0&&i%Agent.iAgentDim==0&&i!=Agent.iAgentDim*Agent.ikmeans-1) {
+				System.out.print("],[");
+			}
+			System.out.print(Agent.gbest[i] + ",");
+			if(i==Agent.iAgentDim*Agent.ikmeans-1) {
+				System.out.print("]],");
+			}
 		}
 		System.out.println();
 	}

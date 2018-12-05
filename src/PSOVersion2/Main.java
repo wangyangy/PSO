@@ -7,10 +7,8 @@ public class Main
 {
 	public static void main(String[] args) throws IOException 
 	{
-		long start = System.currentTimeMillis();
-		//设置聚类的中心数
-		Agent.ikmeans = 2;
-		for(int i=0;i<10;i++) {
+		long start = System.currentTimeMillis(); 
+		for(int i=0;i<30;i++) {
 			PSO pso = new PSO();
 			pso.readfile();
 			pso.createpso();

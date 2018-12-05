@@ -13,12 +13,12 @@ class Agent
 {
 
 	public static int iPOSNum = 20; //粒子个数
-	public static int iAgentDim = 7; //粒子维度
+	public static int iAgentDim = 4; //粒子维度
 	public static int ikmeans=3; //聚类中心数
 	public static double[] gbest = new double[iAgentDim*ikmeans]; 
 	//result中每一行，又是一个list数组
 	public static List<ArrayList<Double>> result = new ArrayList<ArrayList<Double>>();
-	private final double w = 0.9;
+	private final double w = 1;
 	private final double c1= 1.49445;
 	private final double c2 = 1.49445;
 	public double[] dpos = new double[iAgentDim*ikmeans]; //粒子的位置
@@ -32,23 +32,49 @@ class Agent
 	private float VMIN = -0.2f;
 	private float popmax = 1.0f;
 	private float popmin = 0.0f;
+	
 	//从文件中读取数据集
+//	public void readAgent() throws IOException
+//	{
+//		File file=new File("D://cluster.txt");
+//		BufferedReader br=new BufferedReader(new FileReader(file));
+//		String s=null;
+//		while ((s=br.readLine())!=null)
+//		{
+//			String record = s.toString(); 
+//			String[] fields = record.split(" "); 
+//			List<Double> tmplist = new ArrayList<Double>(); 
+//			for (int i = 0; i < fields.length; ++i)
+//			{ 
+//				tmplist.add(Double.parseDouble(fields[i])); 
+//			} 
+//			result.add((ArrayList<Double>) tmplist);  
+//		}
+//		br.close();
+//	}
+	
+	//这个函数要特别的注意,因为不同的数据集里面的格式是不同的,在读取数据的时候要特别单独的处理一下
 	public void readAgent() throws IOException
 	{
-		File file=new File("D://cluster.txt");
+		File file=new File("D://data//iris_normalize.txt");
 		BufferedReader br=new BufferedReader(new FileReader(file));
 		String s=null;
 		while ((s=br.readLine())!=null)
 		{
 			String record = s.toString(); 
-			String[] fields = record.split(" "); 
-			List<Double> tmplist = new ArrayList<Double>(); 
-			for (int i = 0; i < fields.length; ++i)
+			String[] fields = record.split(","); 
+			List<Double> tmplist = new ArrayList<Double>();
+			//掐头去尾
+			for (int i = 0; i < fields.length-1; ++i)
 			{ 
 				tmplist.add(Double.parseDouble(fields[i])); 
 			} 
+//			System.out.println(tmplist);
 			result.add((ArrayList<Double>) tmplist);  
 		}
+//		for(int i =0;i<result.size();i++) {
+//			System.out.println(result.get(i));
+//		}
 		br.close();
 	}
 
@@ -76,7 +102,7 @@ class Agent
 				--i;//这次不算，重头来过
 			}
 		}
-		//根据随机挑选的两个位置作为初始的聚类中心
+		//根据随机挑选的位置作为初始的聚类中心
 		int k=0;
 		for(int i = 0; i < results.length; i++) 
 		{
