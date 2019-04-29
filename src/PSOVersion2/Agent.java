@@ -13,8 +13,8 @@ class Agent
 {
     
 	public static int iPOSNum = 20;      //粒子个数
-	public static int iAgentDim = 4; //粒子维度
-	public static int ikmeans=3; //聚类中心数
+	public static int iAgentDim = 8; //粒子维度
+	public static int ikmeans=2; //聚类中心数
 	public static double[] gbest = new double[iAgentDim*ikmeans]; 
 	//result中每一行，又是一个list数组
 	public static List<ArrayList<Double>> result = new ArrayList<ArrayList<Double>>();
@@ -53,10 +53,13 @@ class Agent
 //		br.close();
 //	}
 	
-	//这个函数要特别的注意,因为不同的数据集里面的格式是不同的,在读取数据的时候要特别单独的处理一下
+	/**
+	 * 这个函数要特别的注意,因为不同的数据集里面的格式是不同的,在读取数据的时候要特别单独的处理一下
+	 * @throws IOException
+	 */
 	public void readAgent() throws IOException
 	{
-		File file=new File("D://data//iris_normalize.txt");
+		File file=new File("D://PSOdata//HTRU2//HTRU_2.csv");
 		BufferedReader br=new BufferedReader(new FileReader(file));
 		String s=null;
 		while ((s=br.readLine())!=null)

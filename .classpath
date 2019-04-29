@@ -2,5 +2,6 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/fastjson-1.2.49.jar" sourcepath="G:/ruanjian/maven/apache-maven-3.5.4-bin/repository/com/alibaba/fastjson/1.2.49/fastjson-1.2.49-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,0 +1,26 @@
+username:"根据登录数据获取"
+date:"根据登录数据获取"
+session:"根据登录数据获取"
+"tjRefer":"http:\/\/10.245.146.90\/login.html"
+"浏览器类型":"人为匹配"
+"浏览器属性信息":"根据浏览器获取"
+"浏览器的是否启用了cookie":"true"
+"cpu等级":"undefined"
+"浏览器的MIME类型":"63"
+"插件的数量":"随机数"
+"插件的名称":"根据数量随机生成"
+"语言":"undefined",
+"屏幕分辨率高度":"随机生成",
+"屏幕分辨率宽度":"随机生成",
+"clientIP":"221.2.164.40","221.2.164.21", "221.2.164.25", "221.2.164.44" 
+"clientId":"371000",
+"clientName":"山东省威海市",
+"url":"http:\/\/10.245.146.90\/personal\/indexb.php"
+"title":"NIT 最懂你的知识共享平台-WIKI"
+"domain":"10.245.146.90"
+"IP":"人为匹配"
+
+
+{"username":"zhangruiqi@wis-eye.com","date":"2019-03-19 15:44:54","session":{"id":1552981491,"realname":"zhangruiqi","state":2,"username":"zhangruiqi@wis-eye.com","userlevel":2},"tjRefer":"","浏览器类型":"Chrome","浏览器属性信息":"Mozilla\/5.0 (Windows NT 10.0; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/63.0.3239.132 Safari\/537.36","浏览器的是否启用了cookie":"true","cpu等级":"undefined","浏览器的MIME类型":"42","插件的数量":"23","插件的名称":"360SoftMgrPlugin;360安全卫士 快速登录;APlayer ActiveX hosting plugin;AliSSOLogin plugin;Alipay security control;BaiduYunGuanjia Application;Chrome Remote Desktop Viewer;Chromium PDF Plugin;Chromium PDF Viewer;Foxit Reader Plugin for Mozilla;GamePlugin;Microsoft Office;Microsoft® Windows Media Player Firefox Plugin;QQGamePlugin Pro;QQÒôÀÖ²¥·Å¿Ø¼þ;Shockwave Flash;Silverlight Plug-In;Tencent QQ;Tencent SSO Platform;XunLei User Plugin;iTrusChina iTrusPTA,XEnroll,iEnroll,hwPTA,UKeyInstalls Firefox Plugin;npQQPhotoDrawEx;腾讯视频;","语言":"undefined","屏幕分辨率高度":"1080","屏幕分辨率宽度":"1920","clientIP":"221.2.164.3","clientId":"371000","clientName":"山东省威海市","url":"http:\/\/10.245.146.90\/personal\/indexb.php","title":"NIT 最懂你的知识共享平台-WIKI","domain":"10.245.146.90","IP":"10.246.226.208"}
+
+

@@ -1,0 +1,603 @@
+liushenrong@wis-eye.com&&10.241.72.134&&2018-10-09 17:20:41&&408&&-
+liushenrong@wis-eye.com&&10.241.72.134&&2018-10-09 17:21:22&&408&& Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+zhangyaqun@wis-eye.com&&10.246.50.88&&2018-10-09 18:19:03&&403&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+jinzhen@wis-eye.com&&10.246.96.198&&2018-10-09 18:20:44&&403&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+yuchao@wis-eye.com&&10.241.70.102&&2018-10-09 20:28:59&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+yuchao@wis-eye.com&&10.241.70.102&&2018-10-09 20:29:08&&408&&-
+pengyanhao@wis-eye.com&&10.246.38.48&&2018-10-10 14:28:09&&408&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+pengyanhao@wis-eye.com&&10.246.38.48&&2018-10-10 14:29:17&&408&&-
+liyanzhe@wis-eye.com&&10.246.136.161&&2018-10-10 21:21:59&&408&& Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+liyanzhe@wis-eye.com&&10.246.136.161&&2018-10-10 21:22:28&&408&& Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+zhushicha@wis-eye.com&&10.241.70.55&&2018-10-11 08:10:27&&403&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+zhaiwenjie@wis-eye.com&&10.241.73.30&&2018-10-11 09:27:13&&403&& Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+wangyang@wis-eye.com&&10.241.74.238&&2018-10-11 11:26:08&&403&& Mozilla/5.0 (Windows; U; Windows NT 6.1; zh-cn) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+gongjun@wis-eye.com&&10.246.223.143&&2018-10-11 14:30:49&&408&&-
+liuchaoyang@wis-eye.com&&10.246.49.154&&2018-10-11 14:35:12&&403&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+liuchaoyang@wis-eye.com&&10.246.49.154&&2018-10-13 13:49:23&&408&&-
+wangyang@wis-eye.com&&10.241.74.238&&2018-10-14 13:32:19&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+wangyang@wis-eye.com&&10.241.74.238&&2018-10-14 13:32:34&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+luxin@wis-eye.com&&10.246.101.6&&2018-10-14 19:18:04&&403&& Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+wangxuwu@wis-eye.com&&10.246.223.48&&2018-10-16 10:01:37&&408&&-
+jinzhen@wis-eye.com&&10.246.81.114&&2018-10-16 16:51:14&&403&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+wanggang@wis-eye.com&&10.241.70.41&&2018-10-17 11:24:36&&408&&-
+wangwei@wis-eye.com&&10.241.74.183&&2018-10-17 12:00:33&&403&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/5.0)
+shiguoqian@wis-eye.com&&10.241.70.142&&2018-10-17 18:04:29&&408&&-
+shiguoqian@wis-eye.com&&10.241.70.142&&2018-10-17 18:05:33&&408&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+hujixiang@wis-eye.com&&10.241.73.13&&2018-10-18 14:57:41&&408&&-
+wangyang@wis-eye.com&&10.241.74.238&&2018-10-18 18:28:37&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+wangyang@wis-eye.com&&10.241.74.238&&2018-10-18 18:28:50&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+yuchao@wis-eye.com&&10.246.24.193&&2018-10-18 21:27:32&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+yuchao@wis-eye.com&&10.246.24.193&&2018-10-18 21:28:11&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+oulibing@wis-eye.com&&10.241.73.88&&2018-10-20 15:39:23&&408&&-
+oulibing@wis-eye.com&&10.241.73.88&&2018-10-20 15:39:27&&408&&-
+fuyao@wis-eye.com&&10.241.70.96&&2018-10-20 20:40:37&&408&&-
+fuyao@wis-eye.com&&10.241.70.96&&2018-10-20 20:40:53&&408&&-
+lixuetao@wis-eye.com&&10.241.70.78&&2018-10-20 21:04:37&&403&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+caihaiming@wis-eye.com&&10.246.167.101&&2018-10-21 18:24:54&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+caihaiming@wis-eye.com&&10.246.167.101&&2018-10-21 18:25:27&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+pengyanhao@wis-eye.com&&10.246.223.37&&2018-10-22 12:55:06&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 7.0; InfoPath.3; .NET CLR 3.1.40767; Trident/6.0; en-IN)
+pengyanhao@wis-eye.com&&10.246.223.37&&2018-10-22 12:55:50&&408&&-
+wangxuwu@wis-eye.com&&10.246.223.48&&2018-10-22 14:33:02&&408&&-
+zhangyaming@wis-eye.com&&10.246.226.108&&2018-10-22 21:51:35&&408&&-
+zhangyaming@wis-eye.com&&10.246.226.108&&2018-10-22 21:51:42&&408&& Mozilla/5.0 (Windows NT 6.1; rv 27.3) Gecko/20130101 Firefox/27.3
+liyanzhe@wis-eye.com&&10.246.136.161&&2018-10-23 10:08:45&&403&& Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+wangxuwu@wis-eye.com&&10.246.223.48&&2018-10-24 09:56:29&&408&&-
+wangxuwu@wis-eye.com&&10.246.223.48&&2018-10-24 09:56:51&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+zhangyaqun@wis-eye.com&&10.246.50.88&&2018-10-24 16:05:45&&408&&-
+zhangyaqun@wis-eye.com&&10.246.50.88&&2018-10-24 16:05:59&&408&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+qiulei@wis-eye.com&&10.246.223.12&&2018-10-24 20:18:12&&403&& Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv 24.0) Gecko/20100101 Firefox/24.0
+zhangyaming@wis-eye.com&&10.246.226.108&&2018-10-25 10:30:35&&408&& Mozilla/5.0 (Windows NT 6.1; rv 27.3) Gecko/20130101 Firefox/27.3
+zhangyaming@wis-eye.com&&10.246.226.108&&2018-10-25 10:31:01&&408&&-
+zhaiwenjie@wis-eye.com&&10.241.73.30&&2018-10-26 10:03:19&&403&& Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+pengyanhao@wis-eye.com&&10.246.223.37&&2018-10-26 11:52:16&&403&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+wangxuwu@wis-eye.com&&10.246.226.208&&2018-10-26 14:16:47&&408&& Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/4.0; GTB7.4; InfoPath.1; SV1; .NET CLR 2.8.52393; WOW64; en-US)
+wangxuwu@wis-eye.com&&10.246.226.208&&2018-10-26 14:16:58&&408&& Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/4.0; GTB7.4; InfoPath.1; SV1; .NET CLR 2.8.52393; WOW64; en-US)
+dongdong@wis-eye.com&&10.246.137.32&&2018-10-26 18:46:34&&403&& Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+lihuaxin@wis-eye.com&&10.246.110.37&&2018-10-26 20:23:57&&408&&-
+caihaiming@wis-eye.com&&10.246.167.101&&2018-10-28 08:21:35&&403&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+jinzhen@wis-eye.com&&10.241.73.66&&2018-10-28 20:34:41&&403&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+heyancheng@wis-eye.com&&10.246.223.65&&2018-10-29 14:03:38&&403&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+sunyue@wis-eye.com&&10.246.29.23&&2018-10-29 16:17:03&&403&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+pengyanhao@wis-eye.com&&10.246.38.48&&2018-10-29 18:09:25&&408&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+pengyanhao@wis-eye.com&&10.246.38.48&&2018-10-29 18:10:13&&408&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+mengchen@wis-eye.com&&10.246.76.176&&2018-10-29 18:22:36&&403&& Mozilla/5.0 (X11; CrOS i686 4319.74.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+wangyang@wis-eye.com&&10.241.74.238&&2018-10-30 08:55:10&&408&&-
+mengchen@wis-eye.com&&10.246.76.176&&2018-10-30 09:28:53&&408&& Mozilla/5.0 (X11; CrOS i686 4319.74.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+mengchen@wis-eye.com&&10.246.76.176&&2018-10-30 09:29:25&&408&& Mozilla/5.0 (X11; CrOS i686 4319.74.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+lixuetao@wis-eye.com&&10.241.70.78&&2018-10-30 13:57:02&&408&& Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv 33.0) Gecko/20100101 Firefox/33.0
+lixuetao@wis-eye.com&&10.241.70.78&&2018-10-30 13:57:38&&408&& Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv 33.0) Gecko/20100101 Firefox/33.0
+lixuetao@wis-eye.com&&10.241.70.78&&2018-10-30 15:42:09&&408&&-
+lixuetao@wis-eye.com&&10.241.70.78&&2018-10-30 15:42:31&&408&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+zhangyaming@wis-eye.com&&10.246.226.108&&2018-10-30 18:56:52&&408&&-
+zhangpeng@wis-eye.com&&10.246.226.67&&2018-10-31 08:38:27&&408&& Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36
+zhangpeng@wis-eye.com&&10.246.226.67&&2018-10-31 08:39:51&&408&& Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36
+liujiahow@wis-eye.com&&10.241.70.49&&2018-10-31 08:44:07&&403&& Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0;  rv 11.0) like Gecko
+caihaiming@wis-eye.com&&10.246.167.101&&2018-10-31 12:52:38&&403&& Opera/9.80 (Windows NT 5.2; U; zh-cn) Presto/2.7.62 Version/11.01
+jikongming@wis-eye.com&&10.246.226.136&&2018-10-31 13:24:09&&408&&-
+jikongming@wis-eye.com&&10.246.226.136&&2018-10-31 13:24:50&&408&& Mozilla/5.0 (Windows NT 6.1; WOW64; rv 18.0)  Gecko/20100101 Firefox/18.0
+zhangruiqi@wis-eye.com&&10.246.223.19&&2018-11-01 10:35:21&&408&&-
+zhangruiqi@wis-eye.com&&10.246.223.19&&2018-11-01 10:36:07&&408&&-
+gongjun@wis-eye.com&&10.246.136.149&&2018-11-01 12:34:17&&403&& Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0;  rv 11.0) like Gecko
+hujixiang@wis-eye.com&&10.246.226.24&&2018-11-01 12:37:43&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+hujixiang@wis-eye.com&&10.246.226.24&&2018-11-01 12:37:50&&408&&-
+zhaiwenjie@wis-eye.com&&10.246.55.247&&2018-11-01 16:41:39&&403&& Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+zhaiwenjie@wis-eye.com&&10.246.55.247&&2018-11-01 18:02:13&&408&&-
+zhaiwenjie@wis-eye.com&&10.246.55.247&&2018-11-01 18:03:08&&408&&-
+liyanzhe@wis-eye.com&&10.246.136.161&&2018-11-03 09:17:41&&408&& Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+liyanzhe@wis-eye.com&&10.246.136.161&&2018-11-03 09:18:09&&408&&-
+liuxinyu@wis-eye.com&&10.246.136.118&&2018-11-03 09:52:21&&408&&-
+oulibing@wis-eye.com&&10.241.73.88&&2018-11-03 14:33:11&&403&& Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36
+zhaiwenjie@wis-eye.com&&10.241.73.30&&2018-11-03 16:05:49&&408&& Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+zhaiwenjie@wis-eye.com&&10.241.73.30&&2018-11-03 16:05:52&&408&& Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+simone@wis-eye.com&&123.125.71.39&&2018-11-03 16:39:02&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-03 16:39:10&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-11-03 16:39:12&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-03 16:39:16&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-11-03 16:39:51&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-03 16:40:26&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simthr@wis-eye.com&&123.125.71.39&&2018-11-03 21:02:05&&500&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-03 21:02:12&&500&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-03 21:03:17&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-11-04 17:08:00&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-04 17:08:24&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-11-04 17:08:25&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-11-04 17:08:39&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-04 17:08:43&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-04 17:08:47&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+luxin@wis-eye.com&&10.246.100.176&&2018-11-05 12:09:48&&408&& Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+luxin@wis-eye.com&&10.246.100.176&&2018-11-05 12:10:41&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-11-05 16:38:51&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-11-05 16:39:24&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-11-05 16:39:35&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-11-05 16:39:47&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-05 16:40:13&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-05 16:40:16&&408&&-
+yuchao@wis-eye.com&&10.246.24.193&&2018-11-06 09:01:00&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+yuchao@wis-eye.com&&10.246.24.193&&2018-11-06 09:02:06&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+lihuaxin@wis-eye.com&&10.241.73.71&&2018-11-06 10:54:38&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+lihuaxin@wis-eye.com&&10.241.73.71&&2018-11-06 10:54:47&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+wangxuwu@wis-eye.com&&10.246.226.208&&2018-11-06 12:11:54&&403&& Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/4.0; GTB7.4; InfoPath.1; SV1; .NET CLR 2.8.52393; WOW64; en-US)
+jinzhen@wis-eye.com&&10.241.73.66&&2018-11-06 16:42:48&&408&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+jinzhen@wis-eye.com&&10.241.73.66&&2018-11-06 16:43:00&&408&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+simone@wis-eye.com&&123.125.71.39&&2018-11-07 09:26:47&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-07 09:27:01&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-07 09:27:02&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-11-07 09:27:43&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-11-07 09:27:52&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-07 09:28:00&&408&&-
+wangyang@wis-eye.com&&10.241.74.238&&2018-11-07 10:58:21&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+wangyang@wis-eye.com&&10.241.74.238&&2018-11-07 10:58:44&&408&&-
+jinzhen@wis-eye.com&&10.241.73.66&&2018-11-07 11:58:53&&408&&-
+jinzhen@wis-eye.com&&10.241.73.66&&2018-11-07 11:59:00&&408&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+zhangyaqun@wis-eye.com&&10.246.50.88&&2018-11-07 15:01:35&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-08 20:15:47&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-08 20:15:50&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-08 20:15:55&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-08 20:15:56&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-08 20:16:13&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-08 20:16:37&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+mengchen@wis-eye.com&&10.241.70.78&&2018-11-08 20:17:48&&403&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+liujian@wis-eye.com&&10.246.102.156&&2018-11-09 08:36:01&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+liujian@wis-eye.com&&10.246.102.156&&2018-11-09 08:36:03&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+lihuaxin@wis-eye.com&&10.241.73.71&&2018-11-09 18:22:15&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+lihuaxin@wis-eye.com&&10.241.73.71&&2018-11-09 18:22:43&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+shiguoqian@wis-eye.com&&10.246.79.255&&2018-11-09 18:29:38&&403&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+fuyao@wis-eye.com&&10.246.136.122&&2018-11-09 20:08:55&&408&& Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+fuyao@wis-eye.com&&10.246.136.122&&2018-11-09 20:09:03&&408&& Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+wangliming@wis-eye.com&&10.246.136.61&&2018-11-09 20:31:40&&408&&-
+wangliming@wis-eye.com&&10.246.136.61&&2018-11-09 20:31:51&&408&& Mozilla/5.0 (Windows NT 6.1; WOW64; rv 18.0)  Gecko/20100101 Firefox/18.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-09 20:55:13&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-09 20:55:21&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-09 20:55:27&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-09 20:56:21&&408&&-
+heyancheng@wis-eye.com&&10.241.70.108&&2018-11-10 13:09:27&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+heyancheng@wis-eye.com&&10.241.70.108&&2018-11-10 13:10:07&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-10 13:41:15&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-10 13:41:18&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-11-10 13:41:50&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-10 13:41:54&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+liujian@wis-eye.com&&10.246.226.235&&2018-11-10 14:07:40&&403&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; zh-cn) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+sunyue@wis-eye.com&&10.246.29.23&&2018-11-10 15:46:59&&408&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+sunyue@wis-eye.com&&10.246.29.23&&2018-11-10 15:48:19&&408&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+liushenrong@wis-eye.com&&10.241.72.134&&2018-11-10 17:19:41&&403&& Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+lixuetao@wis-eye.com&&10.241.70.78&&2018-11-10 18:35:43&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-10 20:47:50&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-10 20:48:11&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-10 20:48:23&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-10 20:49:05&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-11 13:37:30&&403&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-11 13:37:56&&403&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-11 13:37:58&&403&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-11 13:38:08&&403&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-11 13:39:02&&403&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+zhaiwenjie@wis-eye.com&&10.241.73.30&&2018-11-11 14:27:43&&408&&-
+zhaiwenjie@wis-eye.com&&10.241.73.30&&2018-11-11 14:27:49&&408&& Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+jikongming@wis-eye.com&&10.246.226.136&&2018-11-11 15:11:19&&403&& Mozilla/5.0 (Windows NT 6.1; WOW64; rv 18.0)  Gecko/20100101 Firefox/18.0
+mengchen@wis-eye.com&&10.241.70.78&&2018-11-11 19:40:18&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+mengchen@wis-eye.com&&10.241.70.78&&2018-11-11 19:40:30&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-12 15:56:30&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-12 15:56:44&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-12 15:56:44&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-12 15:56:53&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-12 19:30:10&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-12 19:31:05&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-11-12 21:38:17&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-11-12 21:38:19&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-12 21:38:48&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-12 21:38:49&&408&&-
+zhangyaming@wis-eye.com&&10.246.226.108&&2018-11-13 10:39:50&&408&&-
+zhangyaming@wis-eye.com&&10.246.226.108&&2018-11-13 10:40:16&&408&& Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+lijunsong@wis-eye.com&&10.246.167.101&&2018-11-13 14:03:49&&408&&-
+linjinxiu@wis-eye.com&&10.241.70.138&&2018-11-13 15:01:44&&408&&-
+linjinxiu@wis-eye.com&&10.241.70.138&&2018-11-13 15:03:07&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+jikongming@wis-eye.com&&10.241.70.142&&2018-11-13 17:39:21&&408&& Mozilla/5.0 (Windows NT 6.1; WOW64; rv 18.0)  Gecko/20100101 Firefox/18.0
+jikongming@wis-eye.com&&10.241.70.142&&2018-11-13 17:39:31&&408&& Mozilla/5.0 (Windows NT 6.1; WOW64; rv 18.0)  Gecko/20100101 Firefox/18.0
+zhangpeng@wis-eye.com&&10.246.137.35&&2018-11-13 19:25:38&&403&& Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36
+simthr@wis-eye.com&&123.125.71.39&&2018-11-14 11:47:38&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-11-14 11:47:43&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-11-14 11:47:47&&404&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-14 11:48:01&&404&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+luxin@wis-eye.com&&10.246.100.176&&2018-11-14 16:37:05&&408&&-
+liujiahow@wis-eye.com&&10.241.70.49&&2018-11-15 16:18:17&&403&& Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0;  rv 11.0) like Gecko
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-15 17:45:59&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-15 17:46:08&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simfou@wis-eye.com&&123.125.71.39&&2018-11-15 21:08:14&&408&&-
+simfou@wis-eye.com&&123.125.71.39&&2018-11-15 21:08:14&&403&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-11-15 21:08:30&&403&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-11-15 21:08:44&&403&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-11-15 21:08:45&&408&&-
+liuchaoyang@wis-eye.com&&10.246.113.145&&2018-11-16 14:53:17&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+liuchaoyang@wis-eye.com&&10.246.113.145&&2018-11-16 14:53:54&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+hujixiang@wis-eye.com&&10.246.226.24&&2018-11-16 16:53:01&&408&&-
+hujixiang@wis-eye.com&&10.246.226.24&&2018-11-16 16:53:26&&408&& Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+wangxuwu@wis-eye.com&&10.246.223.48&&2018-11-17 19:32:03&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-11-18 16:27:48&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-18 16:27:59&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-18 16:28:30&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-18 16:28:54&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-18 16:29:02&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-18 16:29:20&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+pengyanhao@wis-eye.com&&10.246.223.37&&2018-11-19 13:48:30&&408&&-
+pengyanhao@wis-eye.com&&10.246.223.37&&2018-11-19 13:49:23&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-11-19 15:01:53&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-19 15:02:28&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+sunyue@wis-eye.com&&10.246.137.13&&2018-11-19 15:39:41&&408&&-
+sunyue@wis-eye.com&&10.246.137.13&&2018-11-19 15:40:39&&408&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+yutao@wis-eye.com&&10.241.72.126&&2018-11-19 17:13:05&&403&& Mozilla/5.0 (Windows; U; Windows NT 5.1; it-IT) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+lixuetao@wis-eye.com&&10.241.70.78&&2018-11-20 10:47:02&&408&&-
+lixuetao@wis-eye.com&&10.241.70.78&&2018-11-20 10:47:29&&408&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+luxin@wis-eye.com&&10.246.100.176&&2018-11-20 12:07:32&&403&& Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+liuxinyu@wis-eye.com&&10.246.136.118&&2018-11-20 14:17:13&&408&& Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; Media Center PC 6.0; InfoPath.3; MS-RTC LM 8; Zune 4.7)
+liuxinyu@wis-eye.com&&10.246.136.118&&2018-11-20 14:17:53&&408&& Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; Media Center PC 6.0; InfoPath.3; MS-RTC LM 8; Zune 4.7)
+zhangyaqun@wis-eye.com&&10.246.226.170&&2018-11-20 14:18:23&&408&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+zhangyaqun@wis-eye.com&&10.246.226.170&&2018-11-20 14:18:34&&408&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+wangxuwu@wis-eye.com&&10.246.223.48&&2018-11-20 16:30:21&&403&& Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/4.0; GTB7.4; InfoPath.1; SV1; .NET CLR 2.8.52393; WOW64; en-US)
+luxin@wis-eye.com&&10.246.101.6&&2018-11-20 20:19:32&&408&& Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+luxin@wis-eye.com&&10.246.101.6&&2018-11-20 20:20:05&&408&& Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+wanggang@wis-eye.com&&10.241.70.41&&2018-11-21 13:43:36&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+wanggang@wis-eye.com&&10.241.70.41&&2018-11-21 13:44:21&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+simone@wis-eye.com&&123.125.71.39&&2018-11-21 19:38:49&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-21 19:38:55&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-21 19:39:13&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-21 19:39:18&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-11-21 19:39:27&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-11-21 19:39:38&&408&&-
+simfou@wis-eye.com&&123.125.71.39&&2018-11-21 21:13:55&&408&&-
+simfou@wis-eye.com&&123.125.71.39&&2018-11-21 21:13:58&&404&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-11-21 21:14:16&&404&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-11-21 21:14:18&&408&&-
+liujiahow@wis-eye.com&&10.241.70.49&&2018-11-22 14:46:30&&408&& Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0;  rv 11.0) like Gecko
+liujiahow@wis-eye.com&&10.241.70.49&&2018-11-22 14:46:58&&408&& Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0;  rv 11.0) like Gecko
+liyanzhe@wis-eye.com&&10.246.136.161&&2018-11-22 15:03:17&&403&& Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv 16.0.1) Gecko/20121011 Firefox/21.0.1
+simthr@wis-eye.com&&123.125.71.39&&2018-11-23 09:03:50&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-11-23 09:04:10&&403&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-23 09:04:21&&403&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-23 09:04:27&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-11-23 09:04:44&&408&&-
+cuirunze@wis-eye.com&&10.241.73.44&&2018-11-23 11:06:44&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+cuirunze@wis-eye.com&&10.241.73.44&&2018-11-23 11:06:56&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-11-23 11:23:33&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-23 11:23:54&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-23 18:03:20&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-23 18:03:20&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-23 18:03:28&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-23 18:03:29&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-23 18:03:44&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-23 18:04:06&&408&&-
+wangyang@wis-eye.com&&10.241.74.238&&2018-11-23 21:01:41&&408&& Mozilla/5.0 (Windows; U; Windows NT 6.1; zh-cn) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+wangyang@wis-eye.com&&10.241.74.238&&2018-11-23 21:02:21&&408&& Mozilla/5.0 (Windows; U; Windows NT 6.1; zh-cn) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+liuxinyu@wis-eye.com&&10.246.137.13&&2018-11-23 21:24:09&&403&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+qiulei@wis-eye.com&&10.246.58.90&&2018-11-24 09:51:02&&408&&-
+qiulei@wis-eye.com&&10.246.58.90&&2018-11-24 09:51:35&&408&& Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv 24.0) Gecko/20100101 Firefox/24.0
+cuirunze@wis-eye.com&&123.125.71.39&&2018-11-24 11:16:25&&408&&-
+cuirunze@wis-eye.com&&123.125.71.39&&2018-11-24 11:16:36&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+cuirunze@wis-eye.com&&123.125.71.39&&2018-11-24 11:17:23&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+cuirunze@wis-eye.com&&123.125.71.39&&2018-11-24 11:17:36&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+cuirunze@wis-eye.com&&123.125.71.39&&2018-11-24 11:17:36&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-11-24 11:17:55&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-11-24 12:35:33&&408&&-
+simfou@wis-eye.com&&123.125.71.39&&2018-11-24 12:35:48&&403&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-11-24 12:36:07&&408&&-
+simfou@wis-eye.com&&123.125.71.39&&2018-11-24 12:36:29&&403&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-11-24 12:36:33&&408&&-
+zhaiwenjie@wis-eye.com&&10.241.73.30&&2018-11-24 13:27:57&&403&& Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-24 15:45:19&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-24 15:45:44&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+wangyang@wis-eye.com&&10.241.74.238&&2018-11-25 08:05:06&&408&& Mozilla/5.0 (Windows; U; Windows NT 6.1; zh-cn) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+wangyang@wis-eye.com&&10.241.74.238&&2018-11-25 08:05:10&&408&& Mozilla/5.0 (Windows; U; Windows NT 6.1; zh-cn) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+simone@wis-eye.com&&123.125.71.39&&2018-11-25 10:40:03&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-25 10:40:11&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-25 10:40:17&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-25 10:40:41&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-25 10:40:59&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-25 10:41:18&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+wangxuwu@wis-eye.com&&10.246.226.208&&2018-11-25 17:45:16&&408&&-
+wangxuwu@wis-eye.com&&10.246.226.208&&2018-11-25 17:45:55&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-25 21:44:34&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-25 21:45:06&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-25 21:45:21&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-25 21:45:29&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-25 21:45:38&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-25 21:45:44&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+liyanzhe@wis-eye.com&&10.246.136.161&&2018-11-26 08:24:35&&408&& Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv 16.0.1) Gecko/20121011 Firefox/21.0.1
+liyanzhe@wis-eye.com&&10.246.136.161&&2018-11-26 08:24:55&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-26 10:36:44&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-26 10:36:47&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-26 10:37:15&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-26 10:37:56&&408&&-
+wangliming@wis-eye.com&&10.246.73.47&&2018-11-26 11:34:59&&408&&-
+wangliming@wis-eye.com&&10.246.73.47&&2018-11-26 11:35:29&&408&&-
+zhaiwenjie@wis-eye.com&&10.241.73.30&&2018-11-26 17:33:03&&403&& Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-26 19:28:41&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-26 19:28:46&&403&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-26 19:28:54&&403&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-26 19:30:06&&403&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-26 19:30:08&&403&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+zhushicha@wis-eye.com&&10.246.223.43&&2018-11-27 09:16:34&&408&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+zhushicha@wis-eye.com&&10.246.223.43&&2018-11-27 09:17:37&&408&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+wangyang@wis-eye.com&&10.241.74.238&&2018-11-27 09:32:04&&408&&-
+wangyang@wis-eye.com&&10.241.74.238&&2018-11-27 09:32:06&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+simone@wis-eye.com&&123.125.71.39&&2018-11-27 14:26:32&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-27 14:26:42&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-27 14:27:04&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-27 14:27:42&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+cuirunze@wis-eye.com&&10.241.74.134&&2018-11-27 15:04:24&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+cuirunze@wis-eye.com&&10.241.74.134&&2018-11-27 15:04:57&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+simone@wis-eye.com&&123.125.71.39&&2018-11-27 17:17:27&&500&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-27 17:17:30&&500&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-11-27 17:18:53&&500&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simthr@wis-eye.com&&123.125.71.39&&2018-11-27 19:33:39&&500&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-27 19:34:30&&500&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-27 19:34:52&&408&&-
+zhushicha@wis-eye.com&&10.241.70.55&&2018-11-27 21:36:21&&408&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+zhushicha@wis-eye.com&&10.241.70.55&&2018-11-27 21:36:59&&408&&-
+simfou@wis-eye.com&&123.125.71.39&&2018-11-28 09:30:58&&408&&-
+simfou@wis-eye.com&&123.125.71.39&&2018-11-28 09:31:08&&408&&-
+simfou@wis-eye.com&&123.125.71.39&&2018-11-28 09:31:10&&404&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-11-28 09:31:32&&404&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+liujiahow@wis-eye.com&&10.246.223.43&&2018-11-28 10:03:09&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-28 10:32:48&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-28 10:32:55&&404&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-28 10:33:04&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-11-28 10:33:42&&408&&-
+hujixiang@wis-eye.com&&10.241.73.13&&2018-11-28 13:30:47&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+hujixiang@wis-eye.com&&10.241.73.13&&2018-11-28 13:31:32&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+simfou@wis-eye.com&&123.125.71.39&&2018-11-28 15:16:24&&403&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-11-28 15:16:36&&408&&-
+simfou@wis-eye.com&&123.125.71.39&&2018-11-28 15:16:58&&408&&-
+simfou@wis-eye.com&&123.125.71.39&&2018-11-28 15:17:43&&403&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-11-28 15:17:44&&408&&-
+wanggang@wis-eye.com&&10.246.74.139&&2018-11-28 17:57:32&&403&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+liuchaoyang@wis-eye.com&&10.246.113.145&&2018-11-29 08:22:54&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+liuchaoyang@wis-eye.com&&10.246.113.145&&2018-11-29 08:23:04&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-11-29 09:00:41&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-29 09:01:14&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-29 09:01:16&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-29 09:01:30&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-11-29 09:02:08&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-11-29 09:02:15&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+lixuetao@wis-eye.com&&10.241.70.78&&2018-11-29 12:17:10&&408&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+lixuetao@wis-eye.com&&10.241.70.78&&2018-11-29 12:17:47&&408&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+lihuaxin@wis-eye.com&&10.246.110.37&&2018-11-29 17:22:44&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+lihuaxin@wis-eye.com&&10.246.110.37&&2018-11-29 17:23:34&&408&&-
+liujian@wis-eye.com&&10.246.102.156&&2018-11-29 18:11:57&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+liujian@wis-eye.com&&10.246.102.156&&2018-11-29 18:12:41&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+wanggang@wis-eye.com&&10.241.70.41&&2018-11-29 20:18:45&&403&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+sunyue@wis-eye.com&&10.246.29.23&&2018-11-30 10:02:52&&403&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+heyancheng@wis-eye.com&&10.246.223.65&&2018-11-30 15:31:39&&408&&-
+heyancheng@wis-eye.com&&10.246.223.65&&2018-11-30 15:32:31&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+hujixiang@wis-eye.com&&10.241.70.89&&2018-12-01 08:58:45&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+hujixiang@wis-eye.com&&10.241.70.89&&2018-12-01 08:58:51&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+simthr@wis-eye.com&&123.125.71.39&&2018-12-01 09:31:35&&500&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-01 09:31:35&&500&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-01 09:32:33&&408&&-
+zhangyaqun@wis-eye.com&&10.246.226.170&&2018-12-01 12:45:49&&403&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+zhangruiqi@wis-eye.com&&10.241.73.126&&2018-12-01 15:03:39&&403&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+zhaiwenjie@wis-eye.com&&10.246.55.247&&2018-12-01 19:10:40&&408&& Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+zhaiwenjie@wis-eye.com&&10.246.55.247&&2018-12-01 19:10:56&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-12-01 19:24:06&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-12-01 19:24:20&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simone@wis-eye.com&&123.125.71.39&&2018-12-01 19:24:45&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-12-01 19:24:47&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-12-01 19:24:59&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-12-01 19:25:00&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-12-01 19:25:12&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-12-01 19:25:23&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-02 10:09:44&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-02 10:09:46&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-02 10:09:54&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-02 10:10:05&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-02 10:10:20&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-02 10:10:29&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+cuirunze@wis-eye.com&&10.241.73.44&&2018-12-02 13:38:57&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+cuirunze@wis-eye.com&&10.241.73.44&&2018-12-02 13:38:59&&408&&-
+wanggang@wis-eye.com&&10.246.74.139&&2018-12-02 16:10:45&&403&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+simfou@wis-eye.com&&123.125.71.39&&2018-12-03 18:23:56&&500&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-03 18:23:58&&408&&-
+simfou@wis-eye.com&&123.125.71.39&&2018-12-03 18:24:07&&500&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+liushenrong@wis-eye.com&&10.241.72.134&&2018-12-03 20:53:01&&403&& Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+caihaiming@wis-eye.com&&10.246.167.101&&2018-12-04 10:57:58&&403&& Opera/9.80 (Windows NT 5.2; U; zh-cn) Presto/2.7.62 Version/11.01
+wangliming@wis-eye.com&&10.246.73.47&&2018-12-04 18:10:45&&408&&-
+wangliming@wis-eye.com&&10.246.73.47&&2018-12-04 18:11:23&&408&&-
+pengyanhao@wis-eye.com&&10.246.38.48&&2018-12-04 18:35:56&&408&&-
+pengyanhao@wis-eye.com&&10.246.38.48&&2018-12-04 18:37:17&&408&&-
+oulibing@wis-eye.com&&10.241.73.88&&2018-12-04 19:36:32&&408&&-
+zhushicha@wis-eye.com&&10.241.70.55&&2018-12-04 20:00:41&&403&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+wanggang@wis-eye.com&&10.246.74.139&&2018-12-04 21:02:42&&403&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+linjinxiu@wis-eye.com&&10.241.74.33&&2018-12-05 08:30:57&&403&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+shiguoqian@wis-eye.com&&10.241.73.12&&2018-12-05 09:13:56&&403&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+liushenrong@wis-eye.com&&10.246.23.132&&2018-12-05 14:11:47&&408&& Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+liushenrong@wis-eye.com&&10.246.23.132&&2018-12-05 14:12:24&&408&& Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+simthr@wis-eye.com&&123.125.71.39&&2018-12-05 15:21:03&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-12-05 15:21:19&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-12-05 15:21:31&&403&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-05 15:21:41&&403&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-05 15:21:53&&403&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+caihaiming@wis-eye.com&&10.246.167.101&&2018-12-05 15:41:35&&408&& Opera/9.80 (Windows NT 5.2; U; zh-cn) Presto/2.7.62 Version/11.01
+caihaiming@wis-eye.com&&10.246.167.101&&2018-12-05 15:42:40&&408&&-
+lijunsong@wis-eye.com&&10.246.223.39&&2018-12-05 21:44:44&&408&&-
+lijunsong@wis-eye.com&&10.246.223.39&&2018-12-05 21:45:38&&408&& Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+simthr@wis-eye.com&&123.125.71.39&&2018-12-06 11:17:48&&403&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-06 11:17:51&&403&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-06 11:18:10&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-12-06 11:18:32&&403&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-06 11:18:48&&408&&-
+zhangpeng@wis-eye.com&&10.246.137.35&&2018-12-07 16:52:13&&403&& Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-07 19:30:04&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-07 19:30:07&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-07 19:30:16&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-07 19:30:22&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-07 19:31:27&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-07 19:31:32&&408&&-
+zhushicha@wis-eye.com&&10.241.70.55&&2018-12-08 09:56:25&&408&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+zhushicha@wis-eye.com&&10.241.70.55&&2018-12-08 09:57:14&&408&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+liyanzhe@wis-eye.com&&10.246.136.161&&2018-12-08 14:40:03&&403&& Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+wanggang@wis-eye.com&&10.241.70.41&&2018-12-08 15:11:48&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+wanggang@wis-eye.com&&10.241.70.41&&2018-12-08 15:13:10&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+liujian@wis-eye.com&&10.246.226.235&&2018-12-08 15:34:50&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+liujian@wis-eye.com&&10.246.226.235&&2018-12-08 15:36:04&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+yuchao@wis-eye.com&&10.246.24.193&&2018-12-08 19:04:42&&408&&-
+liuchaoyang@wis-eye.com&&10.246.113.145&&2018-12-09 12:29:48&&403&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+simone@wis-eye.com&&123.125.71.39&&2018-12-09 16:33:01&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-12-09 16:33:14&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-12-09 16:33:30&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-12-09 16:33:54&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-12-09 16:34:03&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-12-09 16:34:24&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+liuchaoyang@wis-eye.com&&10.246.113.145&&2018-12-09 19:32:26&&408&&-
+heyancheng@wis-eye.com&&10.241.70.108&&2018-12-10 11:52:24&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+heyancheng@wis-eye.com&&10.241.70.108&&2018-12-10 11:52:37&&408&&-
+zhaiwenjie@wis-eye.com&&10.241.73.30&&2018-12-10 21:40:30&&408&&-
+zhaiwenjie@wis-eye.com&&10.241.73.30&&2018-12-10 21:40:54&&408&& Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+simone@wis-eye.com&&123.125.71.39&&2018-12-11 15:33:51&&500&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-12-11 15:33:56&&500&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-12-11 15:34:29&&500&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simfou@wis-eye.com&&123.125.71.39&&2018-12-11 16:06:04&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-11 16:07:08&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+zhangruiqi@wis-eye.com&&10.246.223.12&&2018-12-11 19:43:02&&403&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+lijunsong@wis-eye.com&&10.246.167.101&&2018-12-11 21:55:09&&408&&-
+lijunsong@wis-eye.com&&10.246.167.101&&2018-12-11 21:55:15&&408&& Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+zhangyaqun@wis-eye.com&&10.246.37.160&&2018-12-12 13:50:13&&403&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+hujixiang@wis-eye.com&&10.241.70.89&&2018-12-13 16:35:53&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+hujixiang@wis-eye.com&&10.241.70.89&&2018-12-13 16:35:59&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+shiguoqian@wis-eye.com&&10.241.70.142&&2018-12-13 19:47:26&&408&&-
+liuchaoyang@wis-eye.com&&10.246.113.145&&2018-12-14 11:10:44&&408&&-
+liuchaoyang@wis-eye.com&&10.246.113.145&&2018-12-14 11:11:59&&408&&-
+jinzhen@wis-eye.com&&10.246.81.114&&2018-12-16 10:27:46&&403&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+simfou@wis-eye.com&&123.125.71.39&&2018-12-16 10:53:51&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-16 10:53:57&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-16 10:54:09&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-16 10:54:10&&408&&-
+simfou@wis-eye.com&&123.125.71.39&&2018-12-16 10:54:22&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-16 10:54:32&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simthr@wis-eye.com&&123.125.71.39&&2018-12-16 16:54:20&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-16 16:54:33&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-16 16:54:39&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-16 16:55:07&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-16 16:55:19&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-16 16:55:38&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+fuyao@wis-eye.com&&10.241.70.96&&2018-12-16 19:17:25&&408&&-
+fuyao@wis-eye.com&&10.241.70.96&&2018-12-16 19:17:42&&408&& Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+simthr@wis-eye.com&&123.125.71.39&&2018-12-17 08:12:50&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-12-17 08:13:15&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-17 08:13:56&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-17 08:14:11&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-17 08:14:15&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-17 08:14:25&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simone@wis-eye.com&&123.125.71.39&&2018-12-17 11:43:09&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-12-17 11:43:17&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-12-17 11:43:23&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-12-17 11:43:24&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-12-17 11:43:41&&408&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-12-17 11:44:04&&408&&-
+simthr@wis-eye.com&&123.125.71.39&&2018-12-17 12:07:26&&500&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-17 12:08:15&&500&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+simthr@wis-eye.com&&123.125.71.39&&2018-12-17 12:08:21&&408&&-
+linjinxiu@wis-eye.com&&10.241.70.138&&2018-12-17 18:15:15&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+linjinxiu@wis-eye.com&&10.241.70.138&&2018-12-17 18:15:38&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+luxin@wis-eye.com&&10.246.100.176&&2018-12-17 18:17:53&&403&& Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+wangwei@wis-eye.com&&10.246.137.32&&2018-12-17 20:23:30&&403&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/5.0)
+wangwei@wis-eye.com&&10.246.137.32&&2018-12-18 13:19:32&&408&&-
+wangwei@wis-eye.com&&10.246.137.32&&2018-12-18 13:19:35&&408&&-
+lijunsong@wis-eye.com&&10.246.167.101&&2018-12-18 13:31:59&&403&& Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+simfou@wis-eye.com&&123.125.71.39&&2018-12-18 15:32:31&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-18 15:32:40&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-18 15:33:01&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-18 15:33:05&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-18 15:33:31&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-18 15:34:08&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+pengyanhao@wis-eye.com&&10.246.38.48&&2018-12-18 16:20:27&&408&&-
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-19 18:42:48&&403&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-19 18:43:10&&403&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-19 18:43:18&&403&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-19 18:43:38&&403&& Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv 27.0) Gecko/20121011 Firefox/27.0
+simtwo@wis-eye.com&&123.125.71.39&&2018-12-19 18:43:44&&408&&-
+liushenrong@wis-eye.com&&10.241.72.134&&2018-12-20 16:57:39&&403&& Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+simone@wis-eye.com&&123.125.71.39&&2018-12-20 20:23:19&&500&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+simone@wis-eye.com&&123.125.71.39&&2018-12-20 20:23:19&&408&&-
+simone@wis-eye.com&&123.125.71.39&&2018-12-20 20:23:32&&500&& Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+dongdong@wis-eye.com&&10.241.70.69&&2018-12-20 20:52:40&&408&& Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+dongdong@wis-eye.com&&10.241.70.69&&2018-12-20 20:53:06&&408&&-
+simfou@wis-eye.com&&123.125.71.39&&2018-12-20 21:20:23&&403&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-20 21:20:29&&403&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-20 21:20:38&&403&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-20 21:21:01&&408&&-
+simfou@wis-eye.com&&123.125.71.39&&2018-12-20 21:21:49&&403&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+fuyao@wis-eye.com&&10.246.136.122&&2018-12-21 08:56:47&&403&& Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+zhaiwenjie@wis-eye.com&&10.241.73.30&&2018-12-21 09:37:38&&403&& Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+heyancheng@wis-eye.com&&10.241.70.108&&2018-12-21 12:38:32&&408&&-
+heyancheng@wis-eye.com&&10.241.70.108&&2018-12-21 12:38:53&&408&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+simfou@wis-eye.com&&123.125.71.39&&2018-12-21 14:11:43&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+simfou@wis-eye.com&&123.125.71.39&&2018-12-21 14:12:08&&408&& Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01
+liujiahow@wis-eye.com&&10.246.223.43&&2018-12-22 08:43:30&&403&& Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0;  rv 11.0) like Gecko
+yuchao@wis-eye.com&&10.246.24.193&&2018-12-22 14:40:57&&403&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+zhangyaqun@wis-eye.com&&10.246.37.160&&2018-12-22 17:52:59&&403&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+caihaiming@wis-eye.com&&10.246.167.101&&2018-12-23 10:56:38&&408&&-
+caihaiming@wis-eye.com&&10.246.167.101&&2018-12-23 10:57:01&&408&&-
+caihaiming@wis-eye.com&&10.241.74.134&&2018-12-23 10:57:55&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+cuirunze@wis-eye.com&&10.241.74.134&&2018-12-23 10:58:37&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+caihaiming@wis-eye.com&&10.246.167.101&&2018-12-23 17:03:02&&408&&-
+cuirunze@wis-eye.com&&10.241.74.134&&2018-12-24 16:00:53&&408&&-
+cuirunze@wis-eye.com&&10.241.74.134&&2018-12-24 16:02:10&&408&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+wanggang@wis-eye.com&&10.241.70.41&&2018-12-24 17:20:04&&403&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+wangyang@wis-eye.com&&10.241.74.238&&2018-12-24 17:43:02&&408&& Mozilla/5.0 (Windows; U; Windows NT 6.1; zh-cn) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+wangyang@wis-eye.com&&10.241.74.238&&2018-12-24 17:43:54&&408&&-
+lintianxia@wis-eye.com&&10.241.70.108&&2018-12-25 08:17:29&&408&& Opera/9.80 (Windows NT 5.2; U; zh-cn) Presto/2.7.62 Version/11.01
+lintianxia@wis-eye.com&&10.241.70.108&&2018-12-25 08:18:32&&408&& Opera/9.80 (Windows NT 5.2; U; zh-cn) Presto/2.7.62 Version/11.01
+lintianxia@wis-eye.com&&10.241.70.108&&2018-12-25 08:27:13&&408&& Opera/9.80 (Windows NT 5.2; U; zh-cn) Presto/2.7.62 Version/11.01
+lintianxia@wis-eye.com&&10.241.70.108&&2018-12-25 08:27:14&&408&& Opera/9.80 (Windows NT 5.2; U; zh-cn) Presto/2.7.62 Version/11.01
+lintianxia@wis-eye.com&&10.241.70.108&&2018-12-25 08:32:51&&408&& Opera/9.80 (Windows NT 5.2; U; zh-cn) Presto/2.7.62 Version/11.01
+lintianxia@wis-eye.com&&10.241.70.108&&2018-12-25 08:33:45&&408&& Opera/9.80 (Windows NT 5.2; U; zh-cn) Presto/2.7.62 Version/11.01
+zhushicha@wis-eye.com&&10.241.70.55&&2018-12-25 13:13:14&&408&&-
+zhushicha@wis-eye.com&&10.241.70.55&&2018-12-25 13:13:18&&408&& Mozilla/5.0 (Windows NT 6.3; rv 36.0) Gecko/20100101 Firefox/36.0
+jikongming@wis-eye.com&&10.241.70.142&&2018-12-26 08:06:03&&408&& Mozilla/5.0 (Windows NT 6.1; WOW64; rv 18.0)  Gecko/20100101 Firefox/18.0
+jikongming@wis-eye.com&&10.241.70.142&&2018-12-26 08:06:48&&408&& Mozilla/5.0 (Windows NT 6.1; WOW64; rv 18.0)  Gecko/20100101 Firefox/18.0
+yuchao@wis-eye.com&&10.241.70.102&&2018-12-26 12:03:41&&408&&-
+lixuetao@wis-eye.com&&10.241.70.78&&2018-12-27 09:23:36&&408&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+lixuetao@wis-eye.com&&10.241.70.78&&2018-12-27 09:24:18&&408&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+yuchao@wis-eye.com&&10.246.24.193&&2018-12-27 17:30:23&&408&&-
+luxin@wis-eye.com&&10.246.100.176&&2018-12-28 09:33:13&&403&& Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+liushenrong@wis-eye.com&&10.241.72.134&&2018-12-28 09:39:04&&408&&-
+liushenrong@wis-eye.com&&10.241.72.134&&2018-12-28 09:39:34&&408&&-
+gongjun@wis-eye.com&&10.246.223.143&&2018-12-29 08:12:46&&403&& Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0;  rv 11.0) like Gecko
+heyancheng@wis-eye.com&&10.241.70.108&&2018-12-30 09:57:59&&403&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+sunyue@wis-eye.com&&10.246.137.13&&2018-12-30 15:28:17&&408&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+sunyue@wis-eye.com&&10.246.137.13&&2018-12-30 15:28:42&&408&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+linjinxiu@wis-eye.com&&10.241.74.33&&2018-12-30 18:02:36&&403&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+wanggang@wis-eye.com&&10.246.74.139&&2018-12-31 11:52:16&&403&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; zh-cn) AppleWebKit/534.16+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+liyanzhe@wis-eye.com&&10.246.136.161&&2019-01-01 18:58:07&&403&& Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+liushenrong@wis-eye.com&&10.241.73.71&&2019-01-01 19:48:41&&403&& Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+liushenrong@wis-eye.com&&10.241.72.134&&2019-01-02 18:36:26&&408&& Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+liushenrong@wis-eye.com&&10.241.72.134&&2019-01-02 18:37:20&&408&& Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+liushenrong@wis-eye.com&&10.246.49.154&&2019-01-02 18:37:56&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+liuchaoyang@wis-eye.com&&10.246.49.154&&2019-01-02 18:38:52&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+gongjun@wis-eye.com&&10.246.136.149&&2019-01-03 17:07:39&&403&& Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0;  rv 11.0) like Gecko
+zhangyaqun@wis-eye.com&&10.246.37.160&&2019-01-04 09:36:49&&408&&-
+zhangyaqun@wis-eye.com&&10.246.37.160&&2019-01-04 09:37:47&&408&&-
+linjinxiu@wis-eye.com&&10.246.223.19&&2019-01-05 16:11:05&&408&&-
+linjinxiu@wis-eye.com&&10.246.223.19&&2019-01-05 16:12:02&&408&&-
+qiulei@wis-eye.com&&10.246.58.90&&2019-01-05 17:05:57&&408&& Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv 24.0) Gecko/20100101 Firefox/24.0
+qiulei@wis-eye.com&&10.246.58.90&&2019-01-05 17:06:03&&408&& Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv 24.0) Gecko/20100101 Firefox/24.0
+liyanzhe@wis-eye.com&&10.246.136.161&&2019-01-05 21:18:18&&403&& Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv 16.0.1) Gecko/20121011 Firefox/21.0.1
+cuirunze@wis-eye.com&&10.241.74.134&&2019-01-06 11:05:12&&403&& Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+yutao@wis-eye.com&&10.241.72.126&&2019-01-06 19:22:47&&403&& Mozilla/5.0 (Windows; U; Windows NT 5.1; it-IT) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+wangxuwu@wis-eye.com&&10.246.223.48&&2019-01-07 14:04:04&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+wangxuwu@wis-eye.com&&10.246.223.48&&2019-01-07 14:04:49&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+dongdong@wis-eye.com&&10.246.137.32&&2019-01-07 19:53:03&&403&& Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv 33.0) Gecko/20100101 Firefox/33.0
+zhangyaqun@wis-eye.com&&10.246.50.88&&2019-01-08 09:59:00&&403&& Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+liujian@wis-eye.com&&10.246.102.156&&2019-01-08 19:31:10&&403&& Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+yuchao@wis-eye.com&&10.246.24.193&&2019-01-08 21:13:31&&408&&-
+lijunsong@wis-eye.com&&10.246.167.101&&2019-01-09 11:52:44&&403&& Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+lijunsong@wis-eye.com&&10.246.167.101&&2019-01-09 15:02:18&&403&& Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-cn) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+wangyang@wis-eye.com&&10.241.74.238&&2019-01-10 08:44:15&&403&& Mozilla/5.0 (Windows; U; Windows NT 6.1; zh-cn) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+zhushicha@wis-eye.com&&10.241.70.78&&2019-01-10 18:38:20&&403&& Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36
+zhangruiqi@wis-eye.com&&10.246.223.12&&2019-01-10 19:20:56&&408&&-
+zhangruiqi@wis-eye.com&&10.246.223.12&&2019-01-10 19:22:11&&408&&-
+hujixiang@wis-eye.com&&10.241.70.89&&2019-01-11 10:47:33&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+hujixiang@wis-eye.com&&10.241.70.89&&2019-01-11 10:47:51&&408&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+liuchaoyang@wis-eye.com&&10.246.113.145&&2019-01-11 19:50:53&&403&& Opera/9.80 (Windows NT 6.1; U; pl) Presto/2.7.62 Version/11.00
+mengchen@wis-eye.com&&10.241.70.78&&2019-01-12 14:22:25&&403&& Mozilla/5.0 (X11; CrOS i686 4319.74.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+lixuetao@wis-eye.com&&10.241.70.78&&2019-01-12 17:33:08&&408&& Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv 33.0) Gecko/20100101 Firefox/33.0
+lixuetao@wis-eye.com&&10.241.70.78&&2019-01-12 17:33:12&&408&& Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv 33.0) Gecko/20100101 Firefox/33.0
+wangxuwu@wis-eye.com&&10.246.223.48&&2019-01-13 09:30:54&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+wangxuwu@wis-eye.com&&10.246.223.48&&2019-01-13 09:30:56&&408&& Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
