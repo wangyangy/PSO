@@ -13,13 +13,12 @@ public class Main
 			pso.readfile();
 			pso.createpso();
 			pso.Initialize();
-			pso.Search();	
-			//Ã¿´ÎÅÜÍêÒ»±éÕâ¸ö¾²Ì¬Êı×é¶¼ÒªÖØĞÂ¸³ÖµµÄ
+			pso.Search();				
 			Agent.gbest = new double[Agent.iAgentDim*Agent.ikmeans]; 
 			Agent.result.clear();
 		}
 		long end = System.currentTimeMillis();
-		System.out.println("ÔËĞĞÊ±¼ä£º"+(end-start)/1000+"Ãë");
+		System.out.println("èŠ±è´¹æ—¶é—´"+(end-start)/1000+"ç§’");
 	}
 }
 

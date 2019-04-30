@@ -12,49 +12,31 @@ import java.util.Set;
 class Agent
 {
     
-	public static int iPOSNum = 20;      //Á£×Ó¸öÊı
-	public static int iAgentDim = 8; //Á£×ÓÎ¬¶È
-	public static int ikmeans=2; //¾ÛÀàÖĞĞÄÊı
+	public static int iPOSNum = 20;      //ç²’å­ä¸ªæ•°
+	public static int iAgentDim = 8; //ç²’å­ç»´åº¦
+	public static int ikmeans=2; //èšç±»ä¸­å¿ƒæ•°
 	public static double[] gbest = new double[iAgentDim*ikmeans]; 
-	//resultÖĞÃ¿Ò»ĞĞ£¬ÓÖÊÇÒ»¸ölistÊı×é
+	//resultä¸­æ¯ä¸€è¡Œï¼Œåˆæ˜¯ä¸€ä¸ªlistæ•°ç»„
 	public static List<ArrayList<Double>> result = new ArrayList<ArrayList<Double>>();
 	private final double w = 1;
 	private final double c1= 1.49445;
 	private final double c2 = 1.49445;
-	public double[] dpos = new double[iAgentDim*ikmeans]; //Á£×ÓµÄÎ»ÖÃ
-	public double[] dpbest = new double[iAgentDim*ikmeans]; //Á£×Ó±¾ÉíµÄ×îÓÅÎ»ÖÃ
-	public double[] dv = new double[iAgentDim*ikmeans]; //Á£×ÓµÄËÙ¶È
-	private double m_dFitness=0; 
-	public double m_dBestfitness; //m_dBestfitness Á£×Ó±¾ÉíµÄ×îÓÅ½â£¬ÊÊÓ¦¶È
+	public double[] dpos = new double[iAgentDim*ikmeans]; //ç²’å­çš„ä½ç½®
+	public double[] dpbest = new double[iAgentDim*ikmeans]; //ç²’å­æœ¬èº«çš„æœ€ä¼˜ä½ç½®
+	public double[] dv = new double[iAgentDim*ikmeans]; //ç²’å­çš„é€Ÿåº¦
+	private double m_dFitness=0;  //å½“å‰è®¡ç®—çš„ç²’å­çš„è§£(åˆ¤æ–­æ˜¯å¦æ›´ä¼˜)
+	public double m_dBestfitness; //m_dBestfitness ç²’å­çš„æœ€ä¼˜è§£ï¼Œé€‚åº”åº¦
 	private Random random = new Random();
-	//ÏÂÃæÊÇÒ»Ğ©Ô¼Êø
+	//ä¸‹é¢æ˜¯ä¸€äº›çº¦æŸ
 	private float VMAX = 0.2f;
 	private float VMIN = -0.2f;
 	private float popmax = 1.0f;
 	private float popmin = 0.0f;
 	
-	//´ÓÎÄ¼şÖĞ¶ÁÈ¡Êı¾İ¼¯
-//	public void readAgent() throws IOException
-//	{
-//		File file=new File("D://cluster.txt");
-//		BufferedReader br=new BufferedReader(new FileReader(file));
-//		String s=null;
-//		while ((s=br.readLine())!=null)
-//		{
-//			String record = s.toString(); 
-//			String[] fields = record.split(" "); 
-//			List<Double> tmplist = new ArrayList<Double>(); 
-//			for (int i = 0; i < fields.length; ++i)
-//			{ 
-//				tmplist.add(Double.parseDouble(fields[i])); 
-//			} 
-//			result.add((ArrayList<Double>) tmplist);  
-//		}
-//		br.close();
-//	}
+	
 	
 	/**
-	 * Õâ¸öº¯ÊıÒªÌØ±ğµÄ×¢Òâ,ÒòÎª²»Í¬µÄÊı¾İ¼¯ÀïÃæµÄ¸ñÊ½ÊÇ²»Í¬µÄ,ÔÚ¶ÁÈ¡Êı¾İµÄÊ±ºòÒªÌØ±ğµ¥¶ÀµÄ´¦ÀíÒ»ÏÂ
+	 * è¿™ä¸ªå‡½æ•°è¦ç‰¹åˆ«çš„æ³¨æ„,å› ä¸ºä¸åŒçš„æ•°æ®é›†é‡Œé¢çš„æ ¼å¼æ˜¯ä¸åŒçš„,åœ¨è¯»å–æ•°æ®çš„æ—¶å€™è¦ç‰¹åˆ«å•ç‹¬çš„å¤„ç†ä¸€ä¸‹
 	 * @throws IOException
 	 */
 	public void readAgent() throws IOException
@@ -67,53 +49,51 @@ class Agent
 			String record = s.toString(); 
 			String[] fields = record.split(","); 
 			List<Double> tmplist = new ArrayList<Double>();
-			//ÆşÍ·È¥Î²
+			//æå¤´å»å°¾
 			for (int i = 0; i < fields.length-1; ++i)
 			{ 
 				tmplist.add(Double.parseDouble(fields[i])); 
 			} 
-//			System.out.println(tmplist);
+			//System.out.println(tmplist);
 			result.add((ArrayList<Double>) tmplist);  
 		}
-//		for(int i =0;i<result.size();i++) {
-//			System.out.println(result.get(i));
-//		}
 		br.close();
 	}
 
-	//¶ÔÁ£×ÓµÄÎ»ÖÃºÍËÙ¶È½øĞĞ³õÊ¼»¯
+	//å¯¹ç²’å­çš„ä½ç½®å’Œé€Ÿåº¦è¿›è¡Œåˆå§‹åŒ–
 	public void agentinitialize()
 	{
-		//ÏÂÃæ¾ÍÊÇËæ»úÑ¡È¡Á½¸öµã×÷Îª³õÊ¼µÄ¾ÛÀàÖĞĞÄ
-		//²úÉúÁ©¸ö²»Í¬µÄËæ»úÊı,·¶Î§ÔÚ[0,size-1]
+		//ä¸‹é¢å°±æ˜¯éšæœºé€‰å–ä¸¤ä¸ªç‚¹ä½œä¸ºåˆå§‹çš„èšç±»ä¸­å¿ƒ
+		//äº§ç”Ÿä¿©ä¸ªä¸åŒçš„éšæœºæ•°,èŒƒå›´åœ¨[0,size-1]
 		Set<Integer> set = new HashSet<Integer>();
-		//ÒÔÏµÍ³Ê±¼äÎªÖÖ×Ó
+		//ä»¥ç³»ç»Ÿæ—¶é—´ä¸ºç§å­
 		Random ran = new Random();
-		//´æ·Å½á¹ûµÄÊı×é
+		//å­˜æ”¾ç»“æœçš„æ•°ç»„
 		int[] results = new int[ikmeans];
 		for (int i = 0; i < ikmeans; i++) 
 		{
-			//²úÉúÒ»¸ö·¶Î§Ğ¡ÓÚresult.size()µÄÊı¡£
+			//äº§ç”Ÿä¸€ä¸ªèŒƒå›´å°äºresult.size()çš„æ•°ã€‚
 			int temp = ran.nextInt(result.size());
-			//Èô´ËÊıÒÑ´æÔÚ£¬ÔòÌí¼ÓÊ§°Ü
+			//è‹¥æ­¤æ•°å·²å­˜åœ¨ï¼Œåˆ™æ·»åŠ å¤±è´¥
 			boolean flag=set.add(temp);
 			if (flag) 
 			{
 				results[i] = temp;
 			}else
 			{
-				--i;//Õâ´Î²»Ëã£¬ÖØÍ·À´¹ı
+				--i;//è¿™æ¬¡ä¸ç®—ï¼Œé‡å¤´æ¥è¿‡
 			}
 		}
-		//¸ù¾İËæ»úÌôÑ¡µÄÎ»ÖÃ×÷Îª³õÊ¼µÄ¾ÛÀàÖĞĞÄ
+		//æ ¹æ®éšæœºæŒ‘é€‰çš„ä½ç½®ä½œä¸ºåˆå§‹çš„èšç±»ä¸­å¿ƒ
 		int k=0;
 		for(int i = 0; i < results.length; i++) 
 		{
+			//resultä¸­åˆå§‹å€¼æ˜¯è¯»å–çš„æ–‡æœ¬ä¸­çš„æ•°æ®,å³æŸäº›æ ·æœ¬ç‚¹
 			for (int j = 0; j < result.get(results[i]).size(); j++)
 			{
 				dpos[k]=result.get(results[i]).get(j);
-				dv[k] = dpos[k];   //ËÙ¶ÈÒ²ÊÇÕâÑù³õÊ¼»¯µÄ
-				dpbest[k] = dpos[k];  //×îÓÅÎ»ÖÃ³õÊ¼»¯
+				dv[k] = dpos[k];   //é€Ÿåº¦ä¹Ÿæ˜¯è¿™æ ·åˆå§‹åŒ–çš„
+				dpbest[k] = dpos[k];  //æœ€ä¼˜ä½ç½®åˆå§‹åŒ–
 				k++;
 			}
 		}
@@ -121,6 +101,7 @@ class Agent
 
 	public void UpdateFitness()
 	{
+		//centerså­˜æ”¾èšç±»ä¸­å¿ƒ
 		ArrayList<double[]> centers = new ArrayList<>();
 		for(int k=0;k<ikmeans;k++) {
 			double [] center=new double[iAgentDim];
@@ -130,43 +111,42 @@ class Agent
 			}
 			centers.add(center);
 		}
-		//¼ÆËãÊÊÓ¦¶Èº¯ÊıµÄÖµ£¬ÕâÀïÆäÊµ¾ÍÊÇ¾àÀë£¬¼ÆËãÃ¿¸öÊı¾İµã
+		//è®¡ç®—é€‚åº”åº¦å‡½æ•°çš„å€¼ï¼Œè¿™é‡Œå…¶å®å°±æ˜¯è·ç¦»ï¼Œè®¡ç®—æ¯ä¸ªæ•°æ®ç‚¹,iå¯¹åº”ç€æ ·æœ¬ç‚¹
 		for (int i = 0; i <result.size(); i++){
 			double  m_dFitnessk = Double.MAX_VALUE;
 			double []distance = new double[centers.size()];		
-			//¼ÆËã¸ÃÊı¾İµãµ½¶àÓĞ¾ÛÀàÖĞĞÄµÄ¾àÀë
+			//è®¡ç®—è¯¥æ•°æ®ç‚¹åˆ°å¤šæœ‰èšç±»ä¸­å¿ƒçš„è·ç¦»
 			for(int k=0;k<centers.size();k++) {
-				//¼ÆËãµ±Ç°µãresult.get(i)µ½Ã¿¸öÖĞĞÄµÄ¾àÀë.Õâ²ã±éÀúÊÇÁ£×ÓµÄÎ¬¶È
+				//è®¡ç®—å½“å‰ç‚¹result.get(i)åˆ°æ¯ä¸ªä¸­å¿ƒçš„è·ç¦».è¿™å±‚éå†æ˜¯ç²’å­çš„ç»´åº¦
 				for (int j = 0; j < result.get(i).size(); j++){
 					distance[k] += Math.pow(result.get(i).get(j)-centers.get(k)[j], 2) ;				
 				}
 			}
-			//Ñ¡³ö×î½üµÄ¾àÀë
+			//é€‰å‡ºæœ€è¿‘çš„è·ç¦»
 			for(int k=0;k<distance.length;k++) {
 				if(m_dFitnessk>distance[k]) {
 					m_dFitnessk=distance[k];
 				}
 			}
-			//¸ÃÁ£×ÓµÄÊÊÓ¦¶È
+			//è¯¥ç²’å­çš„é€‚åº”åº¦(è·ç¦»åœ¨ç´¯åŠ )
 			m_dFitness += m_dFitnessk;
 		}
-		//Èç¹ûµ±Ç°¼ÆËãµÄÊÊÓ¦¶È¸üÓÅ£¬ÔòÌæ»»£¬¶øÇÒ°Ñ×îÓÅÎ»ÖÃÒ²Òª¼ÇÂ¼
+		//å¦‚æœå½“å‰è®¡ç®—çš„é€‚åº”åº¦æ›´ä¼˜ï¼Œåˆ™æ›¿æ¢å½“å‰ç²’å­çš„æœ€ä¼˜è§£ï¼Œè€Œä¸”æŠŠæœ€ä¼˜ä½ç½®ä¹Ÿè¦è®°å½•
 		if(m_dFitness < m_dBestfitness)
 		{
 			m_dBestfitness = m_dFitness;
 			for(int i = 0; i < iAgentDim*ikmeans; i++)
 			{
-				//¸üĞÂ¸öÌå¼«Öµ
+				//æ›´æ–°ä¸ªä½“æå€¼
 				dpbest[i] = dpos[i];
 			}
 		}
-//		System.out.println(m_dBestfitness);
 	}
 
-	//¸üĞÂÁ£×ÓµÄËÙ¶ÈºÍÎ»ÖÃ
+	//æ›´æ–°ç²’å­çš„é€Ÿåº¦å’Œä½ç½®
 	public void UpdatePos()
 	{
-		//»¹Ã»¼ÓÈëÔ¼ÊøÄØ£¡£¡£¡£¡
+		//è¿˜æ²¡åŠ å…¥çº¦æŸå‘¢ï¼ï¼ï¼ï¼
 		for(int i = 0;i < iAgentDim*ikmeans;i++)
 		{
 			dv[i] = w * dv[i] + c1 * random.nextDouble() * (dpbest[i] - dpos[i]) + c2 * random.nextDouble() * ( gbest[i] - dpos[i]);
@@ -184,14 +164,6 @@ class Agent
 			//				dpos[i]=popmin;
 			//			}
 		}
-		//		for(int i=0;i<dv.length;i++) {
-		//			System.out.print(dv[i]+" ");			
-		//		}
-		//		System.out.println();
-		//		for(int i=0;i<dpos.length;i++) {
-		//			System.out.print(dpos[i]+" ");			
-		//		}
-		//		System.out.println();
 	}
 
 }

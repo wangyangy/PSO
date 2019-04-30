@@ -1202,7 +1202,6 @@ public class StatisticData {
 			if(Long.parseLong(timeStamp)>end.getTime()||Long.parseLong(timeStamp)<start.getTime()) {
 				continue;
 			}
-
 			boolean flag = true;
 			//从后向前,每次读取4个数据
 			for(int i=ds.length-1;i>=0;i-=4) {
@@ -1235,8 +1234,6 @@ public class StatisticData {
 						list.add("0.0");
 						user_active.put(user_time, list);
 					}
-					//不打印信息了
-					//					e.printStackTrace();
 				}
 				if(!flag) {
 					break;

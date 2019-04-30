@@ -9,6 +9,7 @@ import java.text.DecimalFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
@@ -862,88 +863,74 @@ public class StatisticData1 {
 
 
 	/**
-	 * 获取隐马尔可夫的数据
+	 * 获取隐马尔可夫的数据,产生result_HMM.txt
 	 */
 	public static HashMap<String, String> getHMMData(String dateStart,String dateEnd) throws Exception{
-
-		File file = new File("data\\result_session_risk.txt");
-		FileReader fr = new FileReader(file);
-		BufferedReader br = new BufferedReader(fr);
-		String line = null;
-		HashMap<String,String> user_session_status = new HashMap<>();
-		while((line = br.readLine())!=null) {
-			String username_time = line.split("::")[0];
-			String status = line.split("::")[1];
-			String timeStamp =  username_time.split("_")[1];
-			//添加上末尾的3个000
-			timeStamp = timeStamp+"000";
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-			//不在时间范围内
-			if(Long.parseLong(timeStamp)<sdf.parse(dateStart).getTime()||Long.parseLong(timeStamp)>sdf.parse(dateEnd).getTime()) {
-				continue;
-			}
-			user_session_status.put(username_time, status);
+		//获取所有会话状态
+		ArrayList<String> session_status = getSessionState();
+		HashMap<String, String> user_session_status = new HashMap<>();
+		for(int i=0;i<session_status.size();i++) {
+			String ut_sessionStat = session_status.get(i);
+			String ut = ut_sessionStat.split("::")[0];
+			String stat = ut_sessionStat.split("::")[1];
+			user_session_status.put(ut, stat);
 		}
-		br.close();
-
-		File file1 = new File("data\\result_sessoin_active.txt");
-		FileReader fr1 = new FileReader(file1);
-		BufferedReader br1 = new BufferedReader(fr1);
-		line = null;
-		HashMap<String,String> user_session_active = new HashMap<>();
-		while((line = br1.readLine())!=null) {
-			String username_time = line.split("::")[0];
-			String score = line.split("::")[1];
-			String timeStamp =  username_time.split("_")[1];
-			//添加上末尾的3个000
-			timeStamp = timeStamp+"000";
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-			//不在时间范围内
-			if(Long.parseLong(timeStamp)<sdf.parse(dateStart).getTime()||Long.parseLong(timeStamp)>sdf.parse(dateEnd).getTime()) {
-				continue;
-			}
-			user_session_active.put(username_time, score);
+		//获取所有会话活跃度值
+		HashMap<String,Double> user_session_active = computeActvie(dateStart,dateEnd);
+		ArrayList<Double> res = new ArrayList<>();
+		for(String user_time:user_session_active.keySet()) {
+			res.add(user_session_active.get(user_time));
 		}
-		br1.close();
+		//由大到小排序是为了定义阈值(3.25,1.47)
+		Collections.sort(res, new C());
+		double b1 = 0.0,b2=0.0;
+		int size = res.size();
+		//b1>b2
+		b1 = res.get(size/3);
+		b2 = res.get(size/3 + size/3);
+		ArrayList<String> result_session = getResult_Session();
+		int len = result_session.size();
 		//在HMM中定义正常访问,异常访问;活跃,一般,不活跃
 		HashMap<String, String> HMMData = new HashMap<>();
-		File file2 = new File("data\\result_session.txt");
-		FileReader fr2 = new FileReader(file2);
-		BufferedReader br2 = new BufferedReader(fr2);
-		line = null;
-		while((line = br2.readLine())!=null) {
+		String line = null;
+		for(int q=0;q<len;q++){
+			line = result_session.get(q);
 			String username_time = line.split("--&&--")[0];
 			String status = user_session_status.get(username_time);
-			String score = user_session_active.get(username_time);
+			Double score = user_session_active.get(username_time);
+			if(status==null||score==null) {
+				continue;
+			}
 			String timeStamp =  username_time.split("_")[1];
 			//添加上末尾的3个000
 			timeStamp = timeStamp+"000";
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+			Date start = sdf.parse(dateStart);
+			Date end = sdf.parse(dateEnd);
 			//不在时间范围内
-			if(Long.parseLong(timeStamp)<sdf.parse(dateStart).getTime()||Long.parseLong(timeStamp)>sdf.parse(dateEnd).getTime()) {
-				System.out.println("不在时间之内");
+			Long endTimestamp = end.getTime();
+			Long startTimestamp = start.getTime();
+			if(Long.parseLong(timeStamp)>endTimestamp||Long.parseLong(timeStamp)<startTimestamp) {
 				continue;
 			}
 			if(status.contains("正常")) {
-				if(Double.parseDouble(score)>3.25) {
+				if(score>b1) {
 					HMMData.put(username_time, "正常_活跃");
-				}else if(Double.parseDouble(score)>1.47) {
+				}else if(score>b2) {
 					HMMData.put(username_time, "正常_一般");
-				}else if(Double.parseDouble(score)>=0.0) {
+				}else if(score>=0.0) {
 					HMMData.put(username_time, "正常_不活跃");
 				}
 			}else {
-				if(Double.parseDouble(score)>3.25) {
+				if(score>b1) {
 					HMMData.put(username_time, "异常_活跃");
-				}else if(Double.parseDouble(score)>1.47) {
+				}else if(score>b2) {
 					HMMData.put(username_time, "异常_一般");
-				}else if(Double.parseDouble(score)>=0.0) {
+				}else if(score>=0.0) {
 					HMMData.put(username_time, "异常_不活跃");
 				}
 			}
 		}
-
-		br2.close();
 		return HMMData;
 	}
 
@@ -953,28 +940,24 @@ public class StatisticData1 {
 	 * @return
 	 * @throws Exception
 	 */
-	public static HashMap<String, ArrayList<String>> getHMMDataByUser() throws Exception{
-
+	public static HashMap<String, ArrayList<String>> getHMMObserveDataByUser() throws Exception{
 		HashMap<String, ArrayList<String>> user_session = new HashMap<>();
-		File file = new File("data\\result_HMM.txt");
-		FileReader fr = new FileReader(file);
-		BufferedReader br = new BufferedReader(fr);
-		String line = null;
-		while((line=br.readLine())!=null) {
-			String user_timeStamp = line.split("::")[0];
-			String username = user_timeStamp.split("_")[0];
-			String timeStamp = user_timeStamp.split("_")[1];
-			String data = line.split("::")[1];
+		HashMap<String, String> HMMData = getHMMData("2018-10-08 08:35:46","2019-12-22 23:59:59");
+		for(String ut:HMMData.keySet()) {
+			String user_timeStamp = ut;
+			String username = ut.split("_")[0];
+			String timeStamp = ut.split("_")[1];
+			String stat = HMMData.get(ut);
 			if(!user_session.containsKey(username)) {
 				ArrayList<String> list = new ArrayList<>();
-				list.add(user_timeStamp+"_"+data);
+				list.add(user_timeStamp+"_"+stat);
 				user_session.put(username, list);				
 			}else {
 				ArrayList<String> list = user_session.get(username);
-				list.add(user_timeStamp+"_"+data);
+				list.add(user_timeStamp+"_"+stat);
 				user_session.put(username,list);
 			}
-		}
+		}		
 		HashMap<String, ArrayList<String>> res = new HashMap<>();
 		//定义6个观测变量    o0:正常,活跃   o1:正常,一般  o2:正常不活跃  o3:异常,活跃  o4:异常,一般  o5:异常,不活跃
 		for(String username:user_session.keySet()) {
@@ -1047,8 +1030,6 @@ public class StatisticData1 {
 		for(String user:res.keySet()) {
 			System.out.println(user+"::"+res.get(user));
 		}
-
-		br.close();
 		return res;
 	}
 
@@ -1161,75 +1142,16 @@ public class StatisticData1 {
 	 * 计算这次会话用户的活跃度,都通过数据归一化
 	 */
 	public static HashMap<String,Double> computeActvie(String dateStart,String dateEnd) throws Exception{
-		File file = new File("data\\result_session.txt");
-		FileReader fr = new FileReader(file);
-		BufferedReader br = new BufferedReader(fr);
-		String line = null;
-		HashMap<String,ArrayList<String>> user_active = new HashMap<>();
+		ArrayList<String> result_session = getResult_Session();
 		HashMap<String,Double> user_active_socre = new HashMap<>();
-		while((line = br.readLine())!=null) {
-			String user_time =  line.split("--&&--")[0];
-			String timeStamp = user_time.split("_")[1];
-			timeStamp = timeStamp+"000";
-			String data = line.split("--&&--")[1];
-			data = data.replace("[", "");
-			data = data.replace("]", "");
-			String []ds = data.split(",");
-
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-			Date start = sdf.parse(dateStart);
-			Date end = sdf.parse(dateEnd);
-			//不在时间范围内
-			if(Long.parseLong(timeStamp)>end.getTime()||Long.parseLong(timeStamp)<start.getTime()) {
-				continue;
-			}
-
-			boolean flag = true;
-			//从后向前,每次读取4个数据
-			for(int i=ds.length-1;i>=0;i-=4) {
-
-				try {
-					//检测数据转换是否异常
-					double d = Double.parseDouble(ds[i]);
-					if(!user_active.containsKey(user_time)) {
-						ArrayList<String> list = new ArrayList<>();
-						list.add(ds[i-3]);
-						list.add(ds[i-2]);
-						list.add(ds[i-1]);
-						list.add(ds[i]);
-						user_active.put(user_time, list);
-					}else {
-						ArrayList<String> list = user_active.get(user_time);
-						list.add(ds[i-3]);
-						list.add(ds[i-2]);
-						list.add(ds[i-1]);
-						list.add(ds[i]);
-						user_active.put(user_time, list);
-					}
-				} catch (Exception e) {
-					flag = false;
-					if(i==ds.length-1) {
-						ArrayList<String> list = new ArrayList<>();
-						list.add("0.0");
-						list.add("0.0");
-						list.add("0.0");
-						list.add("0.0");
-						user_active.put(user_time, list);
-					}
-					//不打印信息了
-					//					e.printStackTrace();
-				}
-				if(!flag) {
-					break;
-				}
-			}
-		}
+		HashMap<String, ArrayList<String>> user_active = getDynamiData(result_session,dateStart,dateEnd);
+		HashMap<String, ArrayList<String>> user_dynamic_allPage = getDynamicDataCombineAllPage(user_active);
 		//计算最大值和最小值
 		Double dmax1=Double.MIN_VALUE,dmax2=Double.MIN_VALUE,dmax3=Double.MIN_VALUE,dmax4=Double.MIN_VALUE;
 		Double dmin1=Double.MAX_VALUE,dmin2=Double.MAX_VALUE,dmin3=Double.MAX_VALUE,dmin4=Double.MAX_VALUE;
-		for(String user:user_active.keySet()) {
-			ArrayList<String> list = user_active.get(user);
-			//list的大小是4的整数倍
+		for(String user:user_dynamic_allPage.keySet()) {
+			ArrayList<String> list = user_dynamic_allPage.get(user);
+			//list的大小是4
 			for(int i=0;i<list.size();i+=4) {
 				if(dmax1<Double.parseDouble(list.get(i))) {
 					dmax1 = Double.parseDouble(list.get(i));
@@ -1258,38 +1180,24 @@ public class StatisticData1 {
 			}
 		}
 
-		for(String user_time:user_active.keySet()) {
-			ArrayList<String> list = user_active.get(user_time);
+		for(String user_time:user_dynamic_allPage.keySet()) {
+			ArrayList<String> list = user_dynamic_allPage.get(user_time);
 			if(list==null|| list.size()==0) {
 				user_active_socre.put(user_time, 0.0);
 				continue;
 			}
-			//			double i1 = 0.0, i2 = 0.0, i3=0.0, i4=0.0;
-			//			//list的大小是4的整数倍
-			//			for(int i=0;i<list.size();i+=4) {
-			//				i1+=Double.parseDouble(list.get(i));
-			//				i2+=Double.parseDouble(list.get(i+1));
-			//				i3+=Double.parseDouble(list.get(i+2));
-			//				i4+=Double.parseDouble(list.get(i+3));
-			//			}
-			//			//计算活跃度的值,不应该这么计算的,
-			//			double score1 = (i1-dmin1)/(dmax1-dmin1);
-			//			double score2 = (i2-dmin2)/(dmax2-dmin2);
-			//			double score3 = (i3-dmin3)/(dmax3-dmin3);
-			//			double score4 = (i4-dmin4)/(dmax4-dmin4);
-			//			double score = score1+score2+score3+score4;
 			double i1 = 0.0, i2 = 0.0, i3=0.0, i4=0.0;
 			for(int i=0;i<list.size();i+=4) {
 				String d1 = list.get(i);
 				double num1 = Double.parseDouble(d1);
 				i1 += (num1-dmin1)/(dmax1-dmin1);
-				String d2 = list.get(i);
+				String d2 = list.get(i+1);
 				double num2 = Double.parseDouble(d2);
 				i2 += (num2-dmin2)/(dmax2-dmin2);
-				String d3 = list.get(i);
+				String d3 = list.get(i+2);
 				double num3 = Double.parseDouble(d3);
 				i3 += (num3-dmin3)/(dmax3-dmin3);
-				String d4 = list.get(i);
+				String d4 = list.get(i+3);
 				double num4 = Double.parseDouble(d4);
 				i4 += (num4-dmin4)/(dmax4-dmin4);
 			}
@@ -1297,7 +1205,6 @@ public class StatisticData1 {
 			user_active_socre.put(user_time, score);
 		}
 
-		br.close();
 		return user_active_socre;
 	}
 
@@ -1336,6 +1243,33 @@ public class StatisticData1 {
 
 
 	public static ArrayList<String> getSessionState() throws Exception {
+		ArrayList<String> result_session = getResult_Session();
+		ArrayList<String> log_user = getUser_Log();
+
+		//获取所有的会话状态,最后在截取,judgeSession函数是产生result_session_risk.txt文件的
+		HashMap<String, String> session_status = judgeSession(log_user,result_session,"2018-10-09 01:00:00","2020-01-14 20:37:44");
+		ArrayList<String> sesstion_states = new ArrayList<>();
+		for(String session:session_status.keySet()) {
+			//liushenrong@wis-eye.com_1539073495::正常访问
+			sesstion_states.add(session+"::"+session_status.get(session));
+		}
+		return sesstion_states;
+
+	}
+
+	private static ArrayList<String> getUser_Log() throws Exception {
+		//统计了所有数据,parseLogDate函数产生的是result_log.txt文件
+		ArrayList<String> list = parseLogDate();
+		ArrayList<String> logs = new ArrayList<>();
+		for(String s:list) {
+			logs.add(s);
+		}
+		//统计了所有数据,user_log函数是将log和用户名对应起来的,产生result_log_user.txt文件
+		ArrayList<String> log_user = user_log(logs);
+		return log_user;
+	}
+
+	private static ArrayList<String> getResult_Session() throws Exception {
 		//统计了所有数据,parseCollecedData函数产生的是result_collectData.txt文件
 		HashMap<String,ArrayList<String>> user_data = parseCollecedData();
 		ArrayList<String> collectDatas = new ArrayList<>();
@@ -1351,26 +1285,9 @@ public class StatisticData1 {
 		for(String user_sess:user_session.keySet()) {
 			result_session.add(user_sess+"--&&--"+user_session.get(user_sess));
 		}
-		//统计了所有数据,parseLogDate函数产生的是result_log.txt文件
-		ArrayList<String> list = parseLogDate();
-		ArrayList<String> logs = new ArrayList<>();
-		for(String s:list) {
-			logs.add(s);
-		}
-		//统计了所有数据,user_log函数是将log和用户名对应起来的,产生result_log_user.txt文件
-		ArrayList<String> log_user = user_log(logs);
-
-		//获取所有的会话状态,最后在截取,judgeSession函数是产生result_session_risk.txt文件的
-		HashMap<String, String> session_status = judgeSession(log_user,result_session,"2018-10-09 01:00:00","2020-01-14 20:37:44");
-		ArrayList<String> sesstion_states = new ArrayList<>();
-		for(String session:session_status.keySet()) {
-			//liushenrong@wis-eye.com_1539073495::正常访问
-			sesstion_states.add(session+"::"+session_status.get(session));
-		}
-		return sesstion_states;
-
+		return result_session;
 	}
-	
+
 	public static HashMap<String,ArrayList<String>> getDynamiData(ArrayList<String> result_session,String dateStart,String dateEnd) 
 			throws Exception {		
 		String line = null;
@@ -1454,31 +1371,8 @@ public class StatisticData1 {
 			result_session.add(user_sess+"--&&--"+user_session.get(user_sess));
 		}
 		HashMap<String,ArrayList<String>> user_dynamic = getDynamiData(result_session,dateStart,dateEnd);
-		HashMap<String,ArrayList<String>> user_dynamic_add = new HashMap<>();
 		HashMap<String,ArrayList<ArrayList<String>>> user_dynamic_allSession = new HashMap<>();
-		for(String ut:user_dynamic.keySet()) {
-			ArrayList<String> dynamicdata= user_dynamic.get(ut);
-			if(dynamicdata.size()==4) {
-				if(dynamicdata.get(0).equals("0.0")&&dynamicdata.get(1).equals("0.0")
-						&&dynamicdata.get(2).equals("0.0")&&dynamicdata.get(3).equals("0.0")) {
-					continue;
-				}else {
-					user_dynamic_add.put(ut, dynamicdata);
-				}
-			}else {
-				ArrayList<String> dyn = new ArrayList<>();
-				int d1 = 0;int d2 = 0;int d3 = 0;double d4 = 0.0;
-				for(int i=0;i<dynamicdata.size();i+=4) {
-					d1 += Integer.parseInt(dynamicdata.get(i).trim());
-					d2 += Integer.parseInt(dynamicdata.get(i+1).trim());
-					d3 += Integer.parseInt(dynamicdata.get(i+2).trim());
-					d4 += Double.parseDouble(dynamicdata.get(i+3).trim());
-				}
-				dyn.add(String.valueOf(d1));dyn.add(String.valueOf(d2));
-				dyn.add(String.valueOf(d3));dyn.add(String.valueOf(d4));
-				user_dynamic_add.put(ut,dyn);
-			}
-		}
+		HashMap<String, ArrayList<String>> user_dynamic_add = getDynamicDataCombineAllPage(user_dynamic);
 		for(String ut:user_dynamic_add.keySet()) {
 			String username = ut.split("_")[0];
 			ArrayList<ArrayList<String>> subdata = user_dynamic_allSession.get(username);
@@ -1513,10 +1407,10 @@ public class StatisticData1 {
 				d4 += Double.parseDouble(list.get(3).trim());
 			}
 			//不能乘以系数K了
-//			double k = (double)(len-kmin)/(kmax-kmin);
-//			if(len==kmin) {
-//				k = 1.0/(kmax-kmin);
-//			}
+			//			double k = (double)(len-kmin)/(kmax-kmin);
+			//			if(len==kmin) {
+			//				k = 1.0/(kmax-kmin);
+			//			}
 			DecimalFormat df = new DecimalFormat( "0.00");  
 			String click = String.valueOf(df.format((float)(d1)/len));
 			String wheel = String.valueOf(df.format((float)(d2)/len));
@@ -1526,7 +1420,7 @@ public class StatisticData1 {
 			res.add(click);res.add(wheel);res.add(key);res.add(time);
 			data.put(user, res);
 		}
-		
+
 		HashMap<String,HashSet<String>> user_logins = getuser_LoginNum(dateStart,dateEnd);
 		for(String user:user_logins.keySet()) {
 			if(!data.containsKey(user)) {
@@ -1539,7 +1433,7 @@ public class StatisticData1 {
 				data.put(user, list);
 			}
 		}
-		
+
 		//将数据写入表格
 		for(String user:data.keySet()) {
 			ArrayList<String> res = data.get(user);
@@ -1548,7 +1442,41 @@ public class StatisticData1 {
 			s = s.replace("]", "");
 			System.out.println(user+","+s.toString());
 		}
-		
+
+	}
+
+	/**
+	 * 将依次会话中多个页面中的动态数据整合到一起
+	 * @param user_dynamic
+	 * @return
+	 */
+	private static HashMap<String, ArrayList<String>> getDynamicDataCombineAllPage(
+			HashMap<String, ArrayList<String>> user_dynamic) {
+		HashMap<String,ArrayList<String>> user_dynamic_add = new HashMap<>();
+		for(String ut:user_dynamic.keySet()) {
+			ArrayList<String> dynamicdata= user_dynamic.get(ut);
+			if(dynamicdata.size()==4) {
+				if(dynamicdata.get(0).equals("0.0")&&dynamicdata.get(1).equals("0.0")
+						&&dynamicdata.get(2).equals("0.0")&&dynamicdata.get(3).equals("0.0")) {
+					continue;
+				}else {
+					user_dynamic_add.put(ut, dynamicdata);
+				}
+			}else {
+				ArrayList<String> dyn = new ArrayList<>();
+				int d1 = 0;int d2 = 0;int d3 = 0;double d4 = 0.0;
+				for(int i=0;i<dynamicdata.size();i+=4) {
+					d1 += Integer.parseInt(dynamicdata.get(i).trim());
+					d2 += Integer.parseInt(dynamicdata.get(i+1).trim());
+					d3 += Integer.parseInt(dynamicdata.get(i+2).trim());
+					d4 += Double.parseDouble(dynamicdata.get(i+3).trim());
+				}
+				dyn.add(String.valueOf(d1));dyn.add(String.valueOf(d2));
+				dyn.add(String.valueOf(d3));dyn.add(String.valueOf(d4));
+				user_dynamic_add.put(ut,dyn);
+			}
+		}
+		return user_dynamic_add;
 	}
 
 
@@ -1557,28 +1485,23 @@ public class StatisticData1 {
 
 
 //		getClassifyInfo("2019-02-23 01:35:46","2019-04-15 23:59:59");
-		
-		getClusterInfo("2019-02-23 01:35:46","2019-04-15 23:59:59");
 
-		//		HashMap<String,Double> user_active = computeActvie("2018-10-08 08:35:46","2019-12-22 23:59:59");
-		//		ArrayList<Double> res = new ArrayList<>();
-		//		for(String user_time:user_active.keySet()) {
-		////			System.out.println(user_time+"::"+user_active.get(user_time));
-		//			res.add(user_active.get(user_time));
-		//		}
-		//		//排序是为了定义阈值(3.25,1.47)
-		//		Collections.sort(res, new C());
-		//		for(int i=0;i<res.size();i++) {
-		//			System.out.println(i+"::"+res.get(i));
-		//		}
+//		getClusterInfo("2019-02-23 01:35:46","2019-04-15 23:59:59");
+
+//				HashMap<String,Double> user_active = computeActvie("2018-10-08 08:35:46","2019-12-22 23:59:59");
+//				ArrayList<Double> res = new ArrayList<>();
+//				for(String user_time:user_active.keySet()) {
+//		//			System.out.println(user_time+"::"+user_active.get(user_time));
+//					res.add(user_active.get(user_time));
+//				}
+		//		
 
 
-		//		HashMap<String, String> HMMData = getHMMData("2018-10-08 08:35:46","2019-12-22 23:59:59");
-		//		for(String user_time:HMMData.keySet()) {
-		//			System.out.println(user_time+"::"+HMMData.get(user_time));
-		//		}
-
-		//		getHMMDataByUser();
+//				HashMap<String, String> HMMData = getHMMData("2018-10-08 08:35:46","2019-12-22 23:59:59");
+//				for(String user_time:HMMData.keySet()) {
+//					System.out.println(user_time+"::"+HMMData.get(user_time));
+//				}
+			getHMMObserveDataByUser();
 
 		//		getHMMStatusByUser();
 	}

@@ -4,12 +4,12 @@ import java.io.IOException;
 class PSO
 {
 	private Agent[] agent;
-	private final int iStep = 1000; //µü´ú´ÎÊı
-	private double m_dBestFitness; //PSOËùÓĞÁ£×ÓµÄÈ«¾Ö¼«Öµ
-	private int m_iTempPos; //¼ÇÂ¼Á£×ÓÈ«¾Ö×îÓÅÖµ¶ÔÓ¦µÄÏÂ±ê
+	private final int iStep = 1000; //è¿­ä»£æ¬¡æ•°
+	private double m_dBestFitness; //PSOæ‰€æœ‰ç²’å­çš„å…¨å±€æå€¼
+	private int m_iTempPos; //è®°å½•ç²’å­å…¨å±€æœ€ä¼˜å€¼å¯¹åº”çš„ä¸‹æ ‡
 
 	
-	//¹¹Ôìº¯Êı,µ÷ÓÃreadAgentº¯Êı£¬½«Êı¾İ¼¯¶ÁÈë
+	//æ„é€ å‡½æ•°,è°ƒç”¨readAgentå‡½æ•°ï¼Œå°†æ•°æ®é›†è¯»å…¥
 	public PSO() {}
 
 	public void readfile() throws IOException
@@ -18,13 +18,13 @@ class PSO
 		fristagent.readAgent();
 	}
 
-	//´´½¨Á£×Ó
+	//åˆ›å»ºç²’å­
 	public void createpso()
 	{
-		//ÉèÖÃÁ£×ÓÈºµÄÈ«¾Ö×îÓÅ¼«Öµ
+		//è®¾ç½®ç²’å­ç¾¤çš„å…¨å±€æœ€ä¼˜æå€¼
 		m_dBestFitness = Integer.MAX_VALUE;
 		agent = new Agent[Agent.iPOSNum];
-		//´´½¨iPosnum¸öÁ£×ÓÊı×é
+		//åˆ›å»ºiPosnumä¸ªç²’å­çš„æ•°ç»„
 		for(int i =0;i < Agent.iPOSNum;i++)
 		{ 
 			agent[i] = new Agent();
@@ -34,10 +34,10 @@ class PSO
 
 	public void Initialize()
 	{
-		//¼ÆËãÃ¿¸öÁ£×ÓµÄÊÊÓ¦¶ÈµÄÖµ
+		//è®¡ç®—æ¯ä¸ªç²’å­çš„é€‚åº”åº¦çš„å€¼
 		for(int i = 0;i < Agent.iPOSNum;i++)
 		{
-			agent[i].m_dBestfitness = 10000; //½«Ã¿¸öÁ£×ÓµÄÊÊÓ¦¶È³õÊ¼Îª10000
+			agent[i].m_dBestfitness = Integer.MAX_VALUE; //å°†æ¯ä¸ªç²’å­çš„é€‚åº”åº¦åˆå§‹ä¸º10000
 			agent[i].UpdateFitness();
 		}
 	}
@@ -47,44 +47,41 @@ class PSO
 		int k = 0;
 		while(k < iStep) //1000
 		{
-			m_iTempPos = 99; //¼ÇÂ¼Á£×ÓÈ«¾Ö×îÓÅÖµ¶ÔÓ¦µÄÏÂ±ê
-			//¶ÔËùÓĞÁ£×ÓµÄ¾Ö²¿¼«Öµ½øĞĞ±È½Ï£¬ÕÒµ½È«¾Ö¼«Öµ
+			m_iTempPos = 99; //è®°å½•ç²’å­å…¨å±€æœ€ä¼˜å€¼å¯¹åº”çš„ä¸‹æ ‡
+			//å¯¹æ‰€æœ‰ç²’å­çš„å±€éƒ¨æå€¼è¿›è¡Œæ¯”è¾ƒï¼Œæ‰¾åˆ°å…¨å±€æå€¼
 			for(int i =0; i< Agent.iPOSNum;i++)
 			{
-				//ÒòÎª¾ÛÀàËùÒÔÊÇ¾àÀëÔ½Ğ¡Ô½ºÃ£¬ÕÒµ½×îÓÅ¼«Öµ£¬²¢¼ÇÂ¼ÏàÓ¦µÄÏÂ±ê
+				//å› ä¸ºèšç±»æ‰€ä»¥æ˜¯è·ç¦»è¶Šå°è¶Šå¥½ï¼Œæ‰¾åˆ°æœ€ä¼˜æå€¼ï¼Œå¹¶è®°å½•ç›¸åº”çš„ä¸‹æ ‡
 				if(agent[i].m_dBestfitness < m_dBestFitness)
 				{
 					m_dBestFitness = agent[i].m_dBestfitness;
 					m_iTempPos = i;
 				}
 			}
-			//Èç¹ûÕÒµ½ÁËÈ«¾Ö¼«Öµ£¬Ôò¸üĞÂÈ«¾Ö¼«Öµ£¬Í¨¹ıÇ°ÃæÕÒµ½µÄÏÂ±ê
+			//å¦‚æœæ‰¾åˆ°äº†å…¨å±€æå€¼ï¼Œåˆ™æ›´æ–°å…¨å±€æå€¼ï¼Œé€šè¿‡å‰é¢æ‰¾åˆ°çš„ä¸‹æ ‡
 			if(m_iTempPos != 99)
 			{
-				//ÈºÌå¼«Öµ¸üĞÂ
+				//ç¾¤ä½“æå€¼æ›´æ–°
 				for(int i =0;i < Agent.iAgentDim*Agent.ikmeans;i++)
 				{
 					try {
 						Agent.gbest[i] = agent[m_iTempPos].dpbest[i];
 					} catch (Exception e) {
-//						System.out.println("Agent.gbest[i]:"+Agent.gbest.length);
-//						System.out.println(m_iTempPos);
-//						System.out.println(i);
 						e.printStackTrace();
 					}
 				}
 			}
-			//¸üĞÂËùÓĞÁ£×ÓµÄËÙ¶ÈºÍÎ»ÖÃ£¬¼ÆËãÒ»¸öÁ£×Ó¾Í¸üĞÂÒ»´Î
+			//æ›´æ–°æ‰€æœ‰ç²’å­çš„é€Ÿåº¦å’Œä½ç½®ï¼Œè®¡ç®—ä¸€ä¸ªç²’å­å°±æ›´æ–°ä¸€æ¬¡
 			for(int i = 0; i < Agent.iPOSNum;i++)
 			{
 				agent[i].UpdatePos();
-				//¼ÆËãËùÓĞÁ£×ÓµÄÊÊÓ¦¶ÈÖµ
+				//è®¡ç®—æ‰€æœ‰ç²’å­çš„é€‚åº”åº¦å€¼
 				agent[i].UpdateFitness();
 			}
 			k++;
-//			System.out.println("µü´ú´ÎÊı:"+k+"È«¾Ö×îÓÅÊ¹ÓÃ¶ÈÖµÎª:"+m_dBestFitness);
+//			System.out.println("è¿­ä»£æ¬¡æ•°:"+k+"å…¨å±€æœ€ä¼˜ä½¿ç”¨åº¦å€¼ä¸º:"+m_dBestFitness);
 		}
-		//Ñ­»·½áÊø
+		//å¾ªç¯ç»“æŸ
 //		System.out.println("After " + k + " steps " + "the best value is " + m_dBestFitness );
 //		System.out.println("The best position is :");
 		for(int i = 0;i < Agent.iAgentDim*Agent.ikmeans;i++)
