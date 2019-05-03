@@ -15,6 +15,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Locale;
+import java.util.Set;
 import java.util.TreeMap;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.parser.Feature;
@@ -760,7 +761,7 @@ public class StatisticData1 {
 	}
 
 	/** "2018-12-01 08:35:46","2018-12-22 23:59:59"
-	 * 获取一段时间范围内的聚类分类的数据
+	 * 获取一段时间范围内的聚类分类的数据  user,login,ip,browser,normal,risk,unknown,class
 	 * @throws Exception
 	 */
 	public static void getClassifyInfo(String dateStart,String dateEnd) throws Exception {
@@ -841,7 +842,15 @@ public class StatisticData1 {
 			}
 			//System.out.println(user+"::"+user_status.get(user));
 		}
-
+		Set<String> users = data.keySet();
+		HashMap<String, Integer> user_id = new HashMap<>();
+		int k=0;
+		for(String user:users) {
+			if(user_id.containsKey(user)) {
+				continue;
+			}
+			user_id.put(user, k++);
+		}
 		//将数据写入表格
 		//		System.out.println("*******************");
 		for(String user:data.keySet()) {
@@ -851,9 +860,9 @@ public class StatisticData1 {
 			s = s.replace("[", "");
 			s = s.replace("]", "");
 			if(user.contains("sim")) {
-				System.out.println(user+","+s+",f");				
+				System.out.println(user_id.get(user)+","+s+",f");				
 			}else {
-				System.out.println(user+","+s+",z");	
+				System.out.println(user_id.get(user)+","+s+",z");	
 			}
 		}
 
@@ -1484,7 +1493,7 @@ public class StatisticData1 {
 
 
 
-//		getClassifyInfo("2019-02-23 01:35:46","2019-04-15 23:59:59");
+		getClassifyInfo("2018-10-08 01:35:46","2018-10-15 23:59:59");
 
 //		getClusterInfo("2019-02-23 01:35:46","2019-04-15 23:59:59");
 
@@ -1501,7 +1510,7 @@ public class StatisticData1 {
 //				for(String user_time:HMMData.keySet()) {
 //					System.out.println(user_time+"::"+HMMData.get(user_time));
 //				}
-			getHMMObserveDataByUser();
+//			getHMMObserveDataByUser();
 
 		//		getHMMStatusByUser();
 	}

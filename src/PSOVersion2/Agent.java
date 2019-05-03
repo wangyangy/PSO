@@ -13,25 +13,26 @@ class Agent
 {
     
 	public static int iPOSNum = 20;      //粒子个数
-	public static int iAgentDim = 8; //粒子维度
-	public static int ikmeans=2; //聚类中心数
+	public static int iAgentDim = 19; //粒子维度
+	public static int ikmeans = 2; //聚类中心数
+	//对粒子的速度和位置进行约束,也可以进行数据归一化使用
+	private static double []MAX = new double[iAgentDim];
+	private static double []MIN = new double[iAgentDim];
+	private static double []STANDMAX = new double[iAgentDim];
+	private static double []STANDMIN = new double[iAgentDim];
 	public static double[] gbest = new double[iAgentDim*ikmeans]; 
 	//result中每一行，又是一个list数组
 	public static List<ArrayList<Double>> result = new ArrayList<ArrayList<Double>>();
-	private final double w = 1;
-	private final double c1= 1.49445;
-	private final double c2 = 1.49445;
+	//权重因子的取值非常重要,取值大了的话,适应度值可能会出现抖动的情况,实验发现取0.5比较合适,可以试一试更小的情形或者稍大的情形
+	private final double w = 0.75;
+	private final double c1= 1.0;
+	private final double c2 = 1.0;
 	public double[] dpos = new double[iAgentDim*ikmeans]; //粒子的位置
 	public double[] dpbest = new double[iAgentDim*ikmeans]; //粒子本身的最优位置
 	public double[] dv = new double[iAgentDim*ikmeans]; //粒子的速度
 	private double m_dFitness=0;  //当前计算的粒子的解(判断是否更优)
 	public double m_dBestfitness; //m_dBestfitness 粒子的最优解，适应度
 	private Random random = new Random();
-	//下面是一些约束
-	private float VMAX = 0.2f;
-	private float VMIN = -0.2f;
-	private float popmax = 1.0f;
-	private float popmin = 0.0f;
 	
 	
 	
@@ -39,9 +40,15 @@ class Agent
 	 * 这个函数要特别的注意,因为不同的数据集里面的格式是不同的,在读取数据的时候要特别单独的处理一下
 	 * @throws IOException
 	 */
-	public void readAgent() throws IOException
+	public static void readAgent() throws IOException
 	{
-		File file=new File("D://PSOdata//HTRU2//HTRU_2.csv");
+//		File file=new File("D://PSOdata//HTRU2//HTRU_2.csv");
+//		File file=new File("D:\\PSOdata\\seeds\\seeds.txt");
+//		File file=new File("D:\\PSOdata\\iris\\iris.txt");
+//		File file=new File("D://PSOdata//magic//magic04.csv");
+//		File file=new File("D://PSOdata//wine//wine.txt");
+//		File file=new File("D://PSOdata//user//cluster_10.txt");
+		File file=new File("D://PSOdata//messidor_features//messidor_features.txt");
 		BufferedReader br=new BufferedReader(new FileReader(file));
 		String s=null;
 		while ((s=br.readLine())!=null)
@@ -52,12 +59,71 @@ class Agent
 			//掐头去尾
 			for (int i = 0; i < fields.length-1; ++i)
 			{ 
-				tmplist.add(Double.parseDouble(fields[i])); 
+				tmplist.add(Double.parseDouble(fields[i].trim())); 
 			} 
 			//System.out.println(tmplist);
 			result.add((ArrayList<Double>) tmplist);  
 		}
 		br.close();
+	}
+	
+	public static void standardization() {
+		int len = result.size();
+		for(int i=0;i<len;i++) {
+			ArrayList<Double> list = result.get(i);
+			for(int j=0;j<list.size();j++){
+				double number = list.get(j);
+				double standNum = (number-MIN[j])/(MAX[j]-MIN[j]);
+				list.set(j, standNum);
+			}
+		}
+	}
+	
+	public static void initSTANDMaxMin() {
+		int len = result.size();
+		int size = result.get(0).size();	
+		for(int q=0;q<STANDMAX.length;q++) {
+			STANDMAX[q] = Float.MIN_VALUE;
+		}
+		for(int q=0;q<MIN.length;q++) {
+			STANDMIN[q] = Float.MAX_VALUE;
+		}
+		for(int i=0;i<len;i++) {
+			ArrayList<Double> list = result.get(i);
+			for(int j=0;j<size;j++) {
+				double number = list.get(j);
+				if(STANDMAX[j]<number) {
+					STANDMAX[j]=number;
+				}
+				if(STANDMIN[j]>number) {
+					STANDMIN[j]=number;
+				}
+			}
+		}
+	}
+	
+	
+	public static void initMaxMin() {
+		int len = result.size();
+		int size = result.get(0).size();	
+		for(int q=0;q<MAX.length;q++) {
+			MAX[q] = Float.MIN_VALUE;
+		}
+		for(int q=0;q<MIN.length;q++) {
+			MIN[q] = Float.MAX_VALUE;
+		}
+		for(int i=0;i<len;i++) {
+			ArrayList<Double> list = result.get(i);
+			for(int j=0;j<size;j++) {
+				double number = list.get(j);
+				if(MAX[j]<number) {
+					MAX[j]=number;
+				}
+				if(MIN[j]>number) {
+					MIN[j]=number;
+				}
+			}
+		}
 	}
 
 	//对粒子的位置和速度进行初始化
@@ -99,8 +165,7 @@ class Agent
 		}
 	}
 
-	public void UpdateFitness()
-	{
+	public void UpdateFitness(){		
 		//centers存放聚类中心
 		ArrayList<double[]> centers = new ArrayList<>();
 		for(int k=0;k<ikmeans;k++) {
@@ -111,8 +176,11 @@ class Agent
 			}
 			centers.add(center);
 		}
+		//不要忘记重新初始化为0,否则永远不会更新
+		m_dFitness = 0.0;
 		//计算适应度函数的值，这里其实就是距离，计算每个数据点,i对应着样本点
-		for (int i = 0; i <result.size(); i++){
+		int num= result.size();
+		for (int i = 0; i <num; i++){
 			double  m_dFitnessk = Double.MAX_VALUE;
 			double []distance = new double[centers.size()];		
 			//计算该数据点到多有聚类中心的距离
@@ -143,29 +211,43 @@ class Agent
 		}
 	}
 
-	//更新粒子的速度和位置
+	//更新粒子的速度和位置,这里一定要有约束限制,不然粒子的适应度值可能会非常大
 	public void UpdatePos()
-	{
-		//还没加入约束呢！！！！
-		for(int i = 0;i < iAgentDim*ikmeans;i++)
-		{
-			dv[i] = w * dv[i] + c1 * random.nextDouble() * (dpbest[i] - dpos[i]) + c2 * random.nextDouble() * ( gbest[i] - dpos[i]);
-			//			if(dv[i]>VMAX) {
-			//				dv[i]=VMAX;
-			//			}
-			//			if(dv[i]<VMIN) {
-			//				dv[i]=VMIN;
-			//			}
-			dpos[i] = dpos[i] + dv[i];
-			//			if(dpos[i]>popmax) {
-			//				dpos[i]=popmax;
-			//			}
-			//			if(dpos[i]<popmin) {
-			//				dpos[i]=popmin;
-			//			}
+	{		
+		for(int i=0;i<ikmeans;i++) {
+			for(int j=0;j<iAgentDim;j++) {
+				int k = i*iAgentDim+j;
+				dv[k] = w * dv[k] + c1 * random.nextDouble() * (dpbest[k] - dpos[k]) 
+						+ c2 * random.nextDouble() * ( gbest[k] - dpos[k]);
+				dpos[k] = dpos[k] + dv[k];
+				//下面的坐标对比时没有问题的,k和j
+				if(dpos[k]>MAX[j]) {
+					dpos[k]=MAX[j];
+				}
+				if(dpos[k]<MIN[j]) {
+					dpos[k]=MIN[j];
+				}
+//				if(dpos[k]>STANDMAX[j]) {
+//					dpos[k]=STANDMAX[j];
+//				}
+//				if(dpos[k]<STANDMIN[j]) {
+//					dpos[k]=STANDMIN[j];
+//				}
+			}
 		}
+	
 	}
 
+	public double getM_dFitness() {
+		return m_dFitness;
+	}
+
+	public void setM_dFitness(double m_dFitness) {
+		this.m_dFitness = m_dFitness;
+	}
+
+	
+	
 }
 
 
